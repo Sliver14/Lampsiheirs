@@ -28,10 +28,43 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
-            <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Phone: +234-703-4523-498</li>
-              <li>Email: info@lampsiheirs.com</li>
-              <li>Lagos, Nigeria</li>
+            <ul className="space-y-3 text-sm text-primary-foreground/80">
+              {/* Phone – Click to Call */}
+              <li className="flex items-center gap-2">
+                <span className="">Phone:</span>
+                <a
+                  href="tel:+2347034523498"
+                  className="font-medium hover:text-primary-foreground transition"
+                >
+                  +234-703-4523-498
+                </a>
+              </li>
+
+              {/* Email – Click to Email */}
+              <li className="flex items-center gap-2">
+                <span className="">Email:</span>
+                <a
+                  href="mailto:victorcourage375@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium hover:text-primary-foreground break-all transition"
+                >
+                  victorcourage375@gmail.com
+                </a>
+              </li>
+
+              {/* Location – Optional: make clickable to Google Maps */}
+              <li className="flex items-center gap-2">
+                <span className="">Location:</span>
+                <span
+                  // href="https://maps.google.com/?q=Lagos,Nigeria"
+                  // target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium"
+                >
+                  Lagos, Nigeria
+                </span>
+              </li>
             </ul>
           </div>
         </div>

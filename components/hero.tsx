@@ -7,7 +7,7 @@ export default function Hero() {
   const whatsappMessage = encodeURIComponent('I am interested in LAMPSI HEIRS LIMITED products and services. Please tell me more.')
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 py-8 md:py-16">
+    <section className="relative overflow-hidden bg-linear-to-br from-background via-background to-accent/5 py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

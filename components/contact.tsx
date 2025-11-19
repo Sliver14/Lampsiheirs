@@ -10,7 +10,7 @@ export default function Contact() {
 
   const whatsappNumber = '2347034523498'
   const phoneNumber = '+234-703-4523-498'
-  const email = 'info@lampsiheirs.com'
+  const email = 'victorcourage375@gmail.com'
   const address = 'Lagos, Nigeria'
 
   const handleWhatsAppClick = () => {
@@ -74,7 +74,7 @@ export default function Contact() {
 
       {/* Location – Non-clickable (or add Google Maps link if you want) */}
       <div className="flex gap-4">
-        <div className="flex-shrink-0">
+        <div className="flex shrink-0">
           <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
             <MapPin className="w-6 h-6 text-primary" />
           </div>

@@ -884,7 +884,7 @@ function Contact() {
     });
     const whatsappNumber = '2347034523498';
     const phoneNumber = '+234-703-4523-498';
-    const email = 'info@lampsiheirs.com';
+    const email = 'victorcourage375@gmail.com';
     const address = 'Lagos, Nigeria';
     const handleWhatsAppClick = ()=>{
         const message = encodeURIComponent(`Hello, I'm ${formData.name}. ${formData.message}`);

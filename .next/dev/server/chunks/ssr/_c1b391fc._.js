@@ -93,8 +93,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2
 ;
 function Header() {
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    const whatsappNumber = '2348012345678';
-    const whatsappMessage = encodeURIComponent('Hello Lampsiheirs Limited, I would like to inquire about your products and services.');
+    const whatsappNumber = '2347034523498';
+    const whatsappMessage = encodeURIComponent('Hello LAMPSI HEIRS LIMITED, I would like to inquire about your products and services.');
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "sticky top-0 z-50 bg-background border-b border-border",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -325,8 +325,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2
 ;
 ;
 function Hero() {
-    const whatsappNumber = '2348012345678';
-    const whatsappMessage = encodeURIComponent('I am interested in Lampsiheirs Limited products and services. Please tell me more.');
+    const whatsappNumber = '2347034523498';
+    const whatsappMessage = encodeURIComponent('I am interested in LAMPSI HEIRS LIMITED products and services. Please tell me more.');
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 py-20 md:py-32",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -882,8 +882,8 @@ function Contact() {
         email: '',
         message: ''
     });
-    const whatsappNumber = '2348012345678';
-    const phoneNumber = '+234-801-2345-678';
+    const whatsappNumber = '2347034523498';
+    const phoneNumber = '+234-703-4523-498';
     const email = 'info@lampsiheirs.com';
     const address = 'Lagos, Nigeria';
     const handleWhatsAppClick = ()=>{

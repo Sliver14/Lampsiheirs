@@ -167,3 +167,1134 @@ If you need interactivity, consider converting part of this to a Client Componen
 [06:04:06.712] Server  LOG      ✓ Compiled in 59ms
 [06:04:39.578] Server  LOG      ✓ Compiled in 66ms
 [06:05:18.292] Server  LOG      ✓ Compiled in 60ms
+[06:16:23.484] Server  LOG      ✓ Compiled in 175ms
+[06:17:05.513] Server  LOG      ✓ Compiled in 72ms
+[06:17:37.824] Server  LOG      ✓ Compiled in 60ms
+[06:19:22.202] Server  LOG      ✓ Compiled in 66ms
+[06:20:00.511] Server  LOG      ✓ Compiled in 60ms
+[06:20:34.433] Server  LOG      ✓ Compiled in 64ms
+[06:22:34.917] Server  LOG      ✓ Compiled in 62ms
+[06:23:28.801] Server  LOG      ✓ Compiled in 70ms
+[06:23:29.193] Browser ERROR   ./components/how-to-order.tsx:144:13
+Parsing ecmascript source code failed
+  142 |             href="/request-quote" // Replace with your actual quote page or form link
+  143 |             vairant=
+> 144 |             className="inline-flex items-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 py-4 rounded-lg transition-all"
+      |             ^^^^^^^^^
+  145 |           >
+  146 |             Request Quote
+  147 |           </button>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./components/how-to-order.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/how-to-order.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:28:04.088] Server  LOG      ✓ Compiled in 61ms
+[06:29:35.059] Server  LOG      ✓ Compiled in 56ms
+[06:29:35.197] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
+[06:30:13.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:30:13.372] Server  LOG      ✓ Compiled in 65ms
+[06:30:13.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763586376846}
+[06:30:59.304] Server  LOG      ✓ Compiled in 61ms
+[06:31:14.541] Server  LOG      ✓ Compiled in 64ms
+[06:31:49.044] Server  LOG      ✓ Compiled in 56ms
+[06:31:57.692] Browser ERROR   uncaughtError: ReferenceError: whatsappMessage is not defined
+[06:35:09.920] Server  LOG      ✓ Compiled in 76ms
+[06:36:17.839] Server  LOG      ✓ Compiled in 59ms
+[06:37:45.517] Server  LOG      ✓ Compiled in 85ms
+[06:38:05.320] Server  LOG      ✓ Compiled in 58ms
+[06:39:02.345] Server  LOG      ✓ Compiled in 62ms
+[06:43:59.484] Server  LOG      ✓ Compiled in 64ms
+[06:44:05.522] Server  LOG      ✓ Compiled in 62ms
+[06:49:01.606] Server  LOG      ✓ Compiled in 129ms
+[06:51:13.701] Server  LOG      ✓ Compiled in 91ms
+[06:51:14.197] Browser ERROR   ./components/client-layout.tsx:9:15
+Parsing ecmascript source code failed
+   7 | import Projects from '@/components/projects'
+   8 | import HowToOrder from '@/components/how-to-order'
+>  9 | import Pricing&quotes from '@/components/pricing&quotes'
+     |               ^
+  10 | import Testimonials from '@/components/testimonials'
+  11 | import FAQs from '@/components/faqs'
+  12 | import Contact from '@/components/contact'
+
+Expected ',', got '&'
+
+Import trace:
+  Server Component:
+    ./components/client-layout.tsx
+    ./app/page.tsx
+[06:52:12.201] Browser ERROR   ./components/client-layout.tsx:9:15
+Parsing ecmascript source code failed
+   7 | import Projects from '@/components/projects'
+   8 | import HowToOrder from '@/components/how-to-order'
+>  9 | import Pricing&quotes from '@/components/pricing&quotes'
+     |               ^
+  10 | import Testimonials from '@/components/testimonials'
+  11 | import FAQs from '@/components/faqs'
+  12 | import Contact from '@/components/contact'
+
+Expected ',', got '&'
+
+Import trace:
+  Server Component:
+    ./components/client-layout.tsx
+    ./app/page.tsx
+[06:53:49.443] Server  LOG      ✓ Compiled in 140ms
+[06:56:21.697] Server  LOG      ✓ Compiled in 137ms
+[06:57:28.848] Server  LOG      ✓ Compiled in 3.4s
+[06:57:28.955] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:57:28.955] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:11.197] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:11.197] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:16.200] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:16.200] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:41.191] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:41.191] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:57.190] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[06:59:57.190] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:00:45.850] Server  LOG      ✓ Compiled in 64ms
+[07:00:46.192] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:00:46.192] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:00:55.403] Server  LOG      ✓ Compiled in 50ms
+[07:00:56.194] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:00:56.194] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:00.797] Server  ERROR    ⨯ ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+
+./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[07:01:00.917] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:00.917] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:01.501] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:02.012] Browser ERROR   uncaughtError: Error: ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[07:01:02.149] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:02.149] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:02.258] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:02.259] Browser ERROR   ./components/productgallery.tsx:1:1
+Export Tile doesn't exist in target module
+> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function ProductsGallery() {
+
+The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import File?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:01:55.376] Server  LOG      ✓ Compiled in 114ms
+[07:01:56.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:01:57.207] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:01:57.208] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:01:57.208] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763588279407}
+[07:10:02.709] Server  LOG      ✓ Compiled in 124ms
+[07:10:44.324] Server  LOG      ✓ Compiled in 177ms
+[07:10:58.881] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:10:58.881] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:10:58.881] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:10:58.881] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:14.604] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:14.604] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:14.604] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:14.604] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:26.192] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:26.192] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:26.192] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:26.192] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:30.337] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:30.337] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:30.337] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:30.337] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:37.997] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:37.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:37.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:37.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:43.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:43.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:11:43.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[07:11:43.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[07:14:01.102] Server  LOG      ✓ Compiled in 101ms
+[07:18:36.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763589279352}
+[07:23:40.029] Server  LOG      ✓ Compiled in 182ms
+[07:23:40.200] Browser ERROR   ./components/productgallery.tsx:39:80
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/images/reel-cover.jpg"   {/* Your beautiful cover image */}
+     |                                                                                ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:24:42.191] Browser ERROR   ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:24:44.188] Browser ERROR   ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:24:48.229] Server  ERROR    ⨯ ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[07:24:48.436] Browser ERROR   uncaughtError: Error: ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+
+[07:24:48.638] Browser ERROR   ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:24:48.638] Browser ERROR   ./components/productgallery.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/productgallery.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/productgallery.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:25:45.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763589708169}
+[07:26:01.399] Server  LOG      ✓ Compiled in 72ms
+[07:26:02.194] Browser ERROR   ./components/videoreel.tsx:39:80
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/images/reel-cover.jpg"   {/* Your beautiful cover image */}
+     |                                                                                ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/videoreel.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/videoreel.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:26:20.193] Browser ERROR   ./components/videoreel.tsx:39:109
+Parsing ecmascript source code failed
+  37 |             ref={videoRef}
+  38 |             className="w-full aspect-video object-cover"
+> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
+     |                                                                                                             ^
+  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
+  41 |             loop
+  42 |             playsInline
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/videoreel.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/videoreel.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:27:23.202] Browser ERROR   ./components/videoreel.tsx:43:74
+Parsing ecmascript source code failed
+  41 |             loop
+  42 |             playsInline
+> 43 |             muted={false}   {/* Set to true if you want muted autoplay */}
+     |                                                                          ^
+  44 |             onClick={togglePlay}
+  45 |           />
+  46 |
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./components/videoreel.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/videoreel.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[07:30:08.161] Server  LOG      ✓ Compiled in 55ms
+[07:30:36.845] Server  LOG      ✓ Compiled in 68ms
+[07:33:15.207] Server  LOG      ✓ Compiled in 69ms
+[07:35:11.387] Server  LOG      ✓ Compiled in 68ms
+[07:35:40.174] Server  LOG      ✓ Compiled in 74ms
+[07:36:50.119] Server  LOG      ✓ Compiled in 73ms
+[07:38:41.759] Server  LOG      ✓ Compiled in 85ms
+[07:39:27.123] Server  LOG      ✓ Compiled in 71ms
+[07:40:44.161] Server  LOG      ✓ Compiled in 75ms
+[07:40:49.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763590611729}
+[07:41:02.077] Server  LOG      ✓ Compiled in 70ms
+[07:43:52.263] Server  LOG      ✓ Compiled in 75ms
+[07:44:40.795] Server  LOG      ✓ Compiled in 129ms
+[07:45:27.279] Server  LOG      ✓ Compiled in 63ms
+[07:45:48.320] Server  LOG      ✓ Compiled in 54ms
+[07:46:34.421] Server  LOG      ✓ Compiled in 56ms
+[07:46:54.433] Server  LOG      ✓ Compiled in 86ms
+[07:47:11.763] Server  LOG      ✓ Compiled in 56ms
+[07:47:34.482] Server  LOG      ✓ Compiled in 63ms
+[07:47:57.998] Server  LOG      ✓ Compiled in 57ms
+[07:48:20.913] Server  LOG      ✓ Compiled in 60ms
+[07:51:04.047] Server  LOG      ✓ Compiled in 59ms
+[07:51:48.754] Server  LOG      ✓ Compiled in 54ms
+[07:53:05.013] Server  LOG      ✓ Compiled in 70ms
+[07:53:22.546] Server  LOG      ✓ Compiled in 126ms
+[07:53:34.715] Server  LOG      ✓ Compiled in 123ms
+[07:55:21.062] Server  LOG      ✓ Compiled in 102ms
+[08:00:27.062] Server  LOG      ✓ Compiled in 145ms
+[08:01:20.089] Server  LOG      ✓ Compiled in 76ms
+[08:01:37.446] Server  LOG      ✓ Compiled in 125ms
+[08:04:01.607] Server  LOG      ✓ Compiled in 67ms
+[08:04:51.113] Server  LOG      ✓ Compiled in 68ms
+[08:04:56.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763592059071}
+[08:05:05.474] Server  LOG      ✓ Compiled in 71ms
+[08:05:26.444] Server  LOG      ✓ Compiled in 86ms
+[08:05:42.576] Server  LOG      ✓ Compiled in 63ms
+[08:06:21.678] Server  LOG      ✓ Compiled in 54ms
+[08:09:06.530] Server  LOG      ✓ Compiled in 64ms
+[08:09:12.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763592315177}
+[08:09:53.981] Server  LOG      ✓ Compiled in 62ms
+[08:10:26.300] Server  LOG      ✓ Compiled in 70ms
+[08:10:44.831] Server  LOG      ✓ Compiled in 88ms

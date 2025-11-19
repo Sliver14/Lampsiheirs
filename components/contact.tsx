@@ -8,8 +8,8 @@ import { useState } from 'react'
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
 
-  const whatsappNumber = '2348012345678'
-  const phoneNumber = '+234-801-2345-678'
+  const whatsappNumber = '2347034523498'
+  const phoneNumber = '+234-703-4523-498'
   const email = 'info@lampsiheirs.com'
   const address = 'Lagos, Nigeria'
 
@@ -21,7 +21,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-background">
+    <section id="contact" className="py-12 md:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
@@ -33,44 +33,61 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="space-y-6">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-bold text-foreground mb-1">Phone</h3>
-                  <p className="text-muted-foreground">{phoneNumber}</p>
-                </div>
-              </div>
+    <div className="flex flex-col gap-6  ">
+      {/* Phone – Click to Call */}
+      <a
+        href={`tel:${phoneNumber.replace(/[^+\d]/g, '')}`} // Strips spaces/dashes
+        className="flex gap-4 group transition-all hover:bg-secondary/5 rounded-lg -m-2 p-2"
+      >
+        <div className="flex shrink-0">
+          <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+            <Phone className="w-6 h-6 text-primary" />
+          </div>
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Phone</h3>
+          <p className="text-primary font-medium ">
+            {phoneNumber}
+          </p>
+        </div>
+      </a>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-bold text-foreground mb-1">Email</h3>
-                  <p className="text-muted-foreground">{email}</p>
-                </div>
-              </div>
+      {/* Email – Click to Email */}
+      <a
+        href={`mailto:${email}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex gap-4 group transition-all hover:bg-secondary/5 rounded-lg -m-2 p-2"
+      >
+        <div className="flex shrink-0">
+          <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+            <Mail className="w-6 h-6 text-primary" />
+          </div>
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Email</h3>
+          <p className="text-primary font-medium break-all">
+            {email}
+          </p>
+        </div>
+      </a>
 
-              <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-primary" />
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-bold text-foreground mb-1">Location</h3>
-                  <p className="text-muted-foreground">{address}</p>
-                  <p className="text-sm text-muted-foreground mt-2">Business hours: Mon–Sat: 8am–6pm</p>
-                </div>
-              </div>
-            </div>
+      {/* Location – Non-clickable (or add Google Maps link if you want) */}
+      <div className="flex gap-4">
+        <div className="flex-shrink-0">
+          <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+            <MapPin className="w-6 h-6 text-primary" />
+          </div>
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Location</h3>
+          <p className="text-muted-foreground">{address}</p>
+          <p className="text-sm text-muted-foreground mt-2">
+            Business hours: Mon–Sat: 8am–6pm
+          </p>
+        </div>
+      </div>
+    </div>
 
             <Button
               onClick={handleWhatsAppClick}

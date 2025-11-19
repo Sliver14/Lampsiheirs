@@ -24,23 +24,23 @@ export default function Services() {
     },
     {
       icon: Home,
-      title: 'Bathroom & Sanitary Wares',
-      description: 'Complete bathroom solutions'
-    },
-    {
-      icon: Wrench,
-      title: 'Nationwide Delivery',
-      description: 'Professional finishing'
+      title: 'Customer satisfaction promise',
+      description: 'Guaranteed Excellence'
     }
+    // {
+    //   icon: Wrench,
+    //   title: 'Nationwide Delivery',
+    //   description: 'Professional finishing'
+    // }
   ]
 
   return (
-    <section id="about" className="py-20 md:py-32 bg-secondary/5">
+    <section id="about" className="py-12 md:py-20 bg-secondary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Why Lampsiheirs</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We make renovation simple. We give your building a world class finish — from sourcing to installation.
+            We make renovation simple, we give your building a world class finish — from sourcing to installation. Choose LAMPSI HEIRS for quality materials, skilled installers, and hassle-free nationwide delivery.
           </p>
         </div>
 

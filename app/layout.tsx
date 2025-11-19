@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Lampsiheirs Limited — Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery',
+  title: 'LAMPSI HEIRS LIMITED — Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery',
   description: 'Transform your space with premium tiles, PVC wall panels, sanitary wares, and expert installation across Nigeria. Fast nationwide delivery, competitive pricing, and guaranteed workmanship.',
   generator: 'v0.app',
   icons: {

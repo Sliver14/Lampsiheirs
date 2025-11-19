@@ -308,7 +308,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2
 ;
 ;
 function Products() {
-    const whatsappNumber = '2348012345678';
+    const whatsappNumber = '2347034523498';
     const categories = [
         {
             name: 'Floor & Wall Tiles',
@@ -843,7 +843,7 @@ function Footer() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "text-lg font-bold mb-4",
-                                    children: "Lampsiheirs Limited"
+                                    children: "LAMPSI HEIRS LIMITED"
                                 }, void 0, false, {
                                     fileName: "[project]/components/footer.tsx",
                                     lineNumber: 7,
@@ -1032,7 +1032,7 @@ function Footer() {
                                     className: "space-y-2 text-sm text-primary-foreground/80",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            children: "Phone: +234-801-2345-678"
+                                            children: "Phone: +234-703-4523-498"
                                         }, void 0, false, {
                                             fileName: "[project]/components/footer.tsx",
                                             lineNumber: 32,
@@ -1074,7 +1074,7 @@ function Footer() {
                     className: "border-t border-primary-foreground/20 pt-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-center text-sm text-primary-foreground/80",
-                        children: "© 2025 Lampsiheirs Limited. All rights reserved."
+                        children: "© 2025 LAMPSI HEIRS LIMITED. All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/components/footer.tsx",
                         lineNumber: 39,

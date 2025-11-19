@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 
 export default function Products() {
-  const whatsappNumber = '2348012345678'
+  const whatsappNumber = '2347034523498'
 
   const categories = [
     {
@@ -37,7 +37,7 @@ export default function Products() {
   ]
 
   return (
-    <section id="products" className="py-20 md:py-32 bg-background">
+    <section id="products" className="py-12 md:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">What We Offer</h2>
@@ -61,7 +61,7 @@ export default function Products() {
                 <p className="text-muted-foreground mb-4">{product.description}</p>
                 <Button
                   variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary/10"
+                  className="w-full border-primary text-primary hover:bg-primary/60"
                   onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=I%20am%20interested%20in%20${encodeURIComponent(product.name)}`)}
                 >
                   Inquire Now

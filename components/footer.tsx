@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">Lampsiheirs Limited</h3>
+            <h3 className="text-lg font-bold mb-4">LAMPSI HEIRS LIMITED</h3>
             <p className="text-primary-foreground/80 text-sm">
               Premium tiles, granites, PVC cladding, and sanitary wares with nationwide delivery and expert installation.
             </p>
@@ -29,7 +29,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Phone: +234-801-2345-678</li>
+              <li>Phone: +234-703-4523-498</li>
               <li>Email: info@lampsiheirs.com</li>
               <li>Lagos, Nigeria</li>
             </ul>
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-primary-foreground/20 pt-8">
           <p className="text-center text-sm text-primary-foreground/80">
-            © 2025 Lampsiheirs Limited. All rights reserved.
+            © 2025 LAMPSI HEIRS LIMITED. All rights reserved.
           </p>
         </div>
       </div>

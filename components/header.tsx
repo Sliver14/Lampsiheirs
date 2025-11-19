@@ -8,8 +8,8 @@ import Link from 'next/link'
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const whatsappNumber = '2348012345678'
-  const whatsappMessage = encodeURIComponent('Hello Lampsiheirs Limited, I would like to inquire about your products and services.')
+  const whatsappNumber = '2347034523498'
+  const whatsappMessage = encodeURIComponent('Hello LAMPSI HEIRS LIMITED, I would like to inquire about your products and services.')
 
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
@@ -19,7 +19,7 @@ export default function Header() {
           <Link href="#" >
             <div className="flex-shrink-0">
               <h1 className="text-2xl font-bold text-primary uppercase">Lampsi heirs limited</h1>
-              <p className="text-xs text-muted-foreground">Premium Building Materials</p>
+              {/* <p className="text-xs text-muted-foreground">Premium Building Materials</p> */}
             </div>
           </Link>
 

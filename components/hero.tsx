@@ -3,8 +3,8 @@
 import { Button } from '@/components/ui/button'
 
 export default function Hero() {
-  const whatsappNumber = '2348012345678'
-  const whatsappMessage = encodeURIComponent('I am interested in Lampsiheirs Limited products and services. Please tell me more.')
+  const whatsappNumber = '2347034523498'
+  const whatsappMessage = encodeURIComponent('I am interested in LAMPSI HEIRS LIMITED products and services. Please tell me more.')
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-accent/5 py-8 md:py-16">
@@ -13,9 +13,9 @@ export default function Hero() {
           {/* Left Content */}
           <div className="space-y-6">
             <div className="inline-block">
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+              {/* <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
                 Premium Quality Tiles & Sanitary Wares
-              </span>
+              </span> */}
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-foreground text-balance leading-tight">

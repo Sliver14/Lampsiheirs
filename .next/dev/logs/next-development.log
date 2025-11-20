@@ -1,1319 +1,838 @@
-[00:00:00.893] Server  LOG     
-[00:00:00.893] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:00.894] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:00.894] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:00.895] Server  LOG     
-[00:00:00.895] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:00.896] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:00.896] Server  LOG     
-[00:00:01.041] Server  LOG      ✓ Ready in 691ms
-[00:00:07.183] Server  LOG      ○ Compiling / ...
-[00:00:07.608] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.612] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:07.615] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.617] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:07.621] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.623] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:07.627] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.629] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:07.632] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.633] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:07.636] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:07.638] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:00:08.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.370] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
-  <button data-slot="button" className=... onClick={function onClick} children=...>
-                                                   ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.570] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:03:02.779] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.780] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.783] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.784] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.788] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.790] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.794] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.795] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.798] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.799] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:02.802] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:03:02.804] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:03:03.398] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:04.211] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.942] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.943] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.945] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.946] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.948] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.949] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.952] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.953] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.956] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.958] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:03.960] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:17:03.962] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:04.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:04.458] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
-  <... variant="outline" className=... onClick={function onClick} children=...>
-                                               ^^^^^^^^^^^^^^^^^^
-If you need interactivity, consider converting part of this to a Client Component.
-[00:17:15.843] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:16.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:17.190] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:17.190] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:17:17.190] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763564005608}
-[04:11:47.502] Server  LOG      ✓ Compiled in 74ms
-[04:12:13.740] Server  LOG      ✓ Compiled in 147ms
-[04:13:56.960] Server  LOG      ✓ Compiled in 64ms
-[04:14:02.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:14:03.150] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:14:03.150] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[04:14:03.150] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763578203209}
-[04:15:52.718] Server  LOG      ✓ Compiled in 61ms
-[04:17:01.720] Server  LOG      ✓ Compiled in 56ms
-[04:17:49.309] Server  LOG      ✓ Compiled in 63ms
-[04:25:27.786] Server  LOG      ✓ Compiled in 127ms
-[04:25:48.404] Server  LOG      ✓ Compiled in 62ms
-[04:26:13.966] Server  LOG      ✓ Compiled in 61ms
-[04:32:55.361] Server  LOG      ✓ Compiled in 145ms
-[04:33:00.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:33:00.525] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:33:00.525] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[04:33:00.525] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763579340583}
-[04:36:26.157] Server  LOG      ✓ Compiled in 145ms
-[04:36:32.857] Server  LOG      ✓ Compiled in 63ms
-[04:36:51.061] Server  LOG      ✓ Compiled in 61ms
-[05:23:04.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:23:05.116] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:23:05.116] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[05:23:05.116] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763582347644}
-[05:23:15.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:23:15.723] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:23:15.723] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[05:23:15.723] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763582358245}
-[05:27:33.166] Server  LOG      ✓ Compiled in 195ms
-[05:28:25.767] Server  LOG      ✓ Compiled in 165ms
-[05:36:32.622] Server  LOG      ✓ Compiled in 81ms
-[05:37:33.644] Server  LOG      ✓ Compiled in 77ms
-[05:41:13.685] Server  LOG      ✓ Compiled in 143ms
-[05:42:34.482] Server  LOG      ✓ Compiled in 75ms
-[05:46:34.450] Server  LOG      ✓ Compiled in 76ms
-[05:48:22.840] Server  LOG      ✓ Compiled in 99ms
-[05:49:02.209] Server  LOG      ✓ Compiled in 79ms
-[05:49:37.623] Server  LOG      ✓ Compiled in 90ms
-[05:50:54.463] Server  LOG      ✓ Compiled in 100ms
-[05:51:43.167] Server  LOG      ✓ Compiled in 103ms
-[05:52:10.208] Server  LOG      ✓ Compiled in 86ms
-[05:53:50.010] Server  LOG      ✓ Compiled in 50ms
-[06:04:06.712] Server  LOG      ✓ Compiled in 59ms
-[06:04:39.578] Server  LOG      ✓ Compiled in 66ms
-[06:05:18.292] Server  LOG      ✓ Compiled in 60ms
-[06:16:23.484] Server  LOG      ✓ Compiled in 175ms
-[06:17:05.513] Server  LOG      ✓ Compiled in 72ms
-[06:17:37.824] Server  LOG      ✓ Compiled in 60ms
-[06:19:22.202] Server  LOG      ✓ Compiled in 66ms
-[06:20:00.511] Server  LOG      ✓ Compiled in 60ms
-[06:20:34.433] Server  LOG      ✓ Compiled in 64ms
-[06:22:34.917] Server  LOG      ✓ Compiled in 62ms
-[06:23:28.801] Server  LOG      ✓ Compiled in 70ms
-[06:23:29.193] Browser ERROR   ./components/how-to-order.tsx:144:13
-Parsing ecmascript source code failed
-  142 |             href="/request-quote" // Replace with your actual quote page or form link
-  143 |             vairant=
-> 144 |             className="inline-flex items-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 py-4 rounded-lg transition-all"
-      |             ^^^^^^^^^
-  145 |           >
-  146 |             Request Quote
-  147 |           </button>
-
-Expected '</', got 'className'
-
-Import traces:
-  Client Component Browser:
-    ./components/how-to-order.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/how-to-order.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:28:04.088] Server  LOG      ✓ Compiled in 61ms
-[06:29:35.059] Server  LOG      ✓ Compiled in 56ms
-[06:29:35.197] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
-[06:30:13.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[06:30:13.372] Server  LOG      ✓ Compiled in 65ms
-[06:30:13.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[06:30:15.188] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763586376846}
-[06:30:59.304] Server  LOG      ✓ Compiled in 61ms
-[06:31:14.541] Server  LOG      ✓ Compiled in 64ms
-[06:31:49.044] Server  LOG      ✓ Compiled in 56ms
-[06:31:57.692] Browser ERROR   uncaughtError: ReferenceError: whatsappMessage is not defined
-[06:35:09.920] Server  LOG      ✓ Compiled in 76ms
-[06:36:17.839] Server  LOG      ✓ Compiled in 59ms
-[06:37:45.517] Server  LOG      ✓ Compiled in 85ms
-[06:38:05.320] Server  LOG      ✓ Compiled in 58ms
-[06:39:02.345] Server  LOG      ✓ Compiled in 62ms
-[06:43:59.484] Server  LOG      ✓ Compiled in 64ms
-[06:44:05.522] Server  LOG      ✓ Compiled in 62ms
-[06:49:01.606] Server  LOG      ✓ Compiled in 129ms
-[06:51:13.701] Server  LOG      ✓ Compiled in 91ms
-[06:51:14.197] Browser ERROR   ./components/client-layout.tsx:9:15
-Parsing ecmascript source code failed
-   7 | import Projects from '@/components/projects'
-   8 | import HowToOrder from '@/components/how-to-order'
->  9 | import Pricing&quotes from '@/components/pricing&quotes'
-     |               ^
-  10 | import Testimonials from '@/components/testimonials'
-  11 | import FAQs from '@/components/faqs'
-  12 | import Contact from '@/components/contact'
-
-Expected ',', got '&'
-
-Import trace:
-  Server Component:
-    ./components/client-layout.tsx
-    ./app/page.tsx
-[06:52:12.201] Browser ERROR   ./components/client-layout.tsx:9:15
-Parsing ecmascript source code failed
-   7 | import Projects from '@/components/projects'
-   8 | import HowToOrder from '@/components/how-to-order'
->  9 | import Pricing&quotes from '@/components/pricing&quotes'
-     |               ^
-  10 | import Testimonials from '@/components/testimonials'
-  11 | import FAQs from '@/components/faqs'
-  12 | import Contact from '@/components/contact'
-
-Expected ',', got '&'
-
-Import trace:
-  Server Component:
-    ./components/client-layout.tsx
-    ./app/page.tsx
-[06:53:49.443] Server  LOG      ✓ Compiled in 140ms
-[06:56:21.697] Server  LOG      ✓ Compiled in 137ms
-[06:57:28.848] Server  LOG      ✓ Compiled in 3.4s
-[06:57:28.955] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:57:28.955] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:11.197] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:11.197] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:16.200] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:16.200] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:41.191] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:41.191] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:57.190] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[06:59:57.190] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:00:45.850] Server  LOG      ✓ Compiled in 64ms
-[07:00:46.192] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:00:46.192] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:00:55.403] Server  LOG      ✓ Compiled in 50ms
-[07:00:56.194] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:00:56.194] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:00.797] Server  ERROR    ⨯ ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-
-
-./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-
-[07:01:00.917] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:00.917] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:01.501] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:01.502] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:02.012] Browser ERROR   uncaughtError: Error: ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-
-[07:01:02.149] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:02.149] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:02.258] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:02.259] Browser ERROR   ./components/productgallery.tsx:1:1
-Export Tile doesn't exist in target module
-> 1 | import { Tile, Waves, ShowerHead, Bath, Car } from 'lucide-react'
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 | import Image from 'next/image'
-  3 |
-  4 | export default function ProductsGallery() {
-
-The export Tile was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
-Did you mean to import File?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:01:55.376] Server  LOG      ✓ Compiled in 114ms
-[07:01:56.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[07:01:57.207] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[07:01:57.208] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[07:01:57.208] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763588279407}
-[07:10:02.709] Server  LOG      ✓ Compiled in 124ms
-[07:10:44.324] Server  LOG      ✓ Compiled in 177ms
-[07:10:58.881] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:10:58.881] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:10:58.881] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:10:58.881] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:14.604] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:14.604] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:14.604] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:14.604] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:26.192] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:26.192] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:26.192] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:26.192] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:30.337] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:30.337] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:30.337] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:30.337] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:37.997] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:37.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:37.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:37.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:43.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:43.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:11:43.998] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
-
-If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
-
-For more information, see https://radix-ui.com/primitives/docs/components/dialog
-[07:11:43.998] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[07:14:01.102] Server  LOG      ✓ Compiled in 101ms
-[07:18:36.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[07:18:36.824] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763589279352}
-[07:23:40.029] Server  LOG      ✓ Compiled in 182ms
-[07:23:40.200] Browser ERROR   ./components/productgallery.tsx:39:80
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/images/reel-cover.jpg"   {/* Your beautiful cover image */}
-     |                                                                                ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:24:42.191] Browser ERROR   ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:24:44.188] Browser ERROR   ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:24:48.229] Server  ERROR    ⨯ ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-
-[07:24:48.436] Browser ERROR   uncaughtError: Error: ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-
-[07:24:48.638] Browser ERROR   ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:24:48.638] Browser ERROR   ./components/productgallery.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/productgallery.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/productgallery.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:25:45.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[07:25:46.220] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763589708169}
-[07:26:01.399] Server  LOG      ✓ Compiled in 72ms
-[07:26:02.194] Browser ERROR   ./components/videoreel.tsx:39:80
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/images/reel-cover.jpg"   {/* Your beautiful cover image */}
-     |                                                                                ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/videoreel.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/videoreel.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:26:20.193] Browser ERROR   ./components/videoreel.tsx:39:109
-Parsing ecmascript source code failed
-  37 |             ref={videoRef}
-  38 |             className="w-full aspect-video object-cover"
-> 39 |             poster="/public/5-bedroom-apartment-tiling-installation.jpg"   {/* Your beautiful cover image */}
-     |                                                                                                             ^
-  40 |             src="/videos/compilation-reel.mp4"  {/* Your main compilation video */}
-  41 |             loop
-  42 |             playsInline
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/videoreel.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/videoreel.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:27:23.202] Browser ERROR   ./components/videoreel.tsx:43:74
-Parsing ecmascript source code failed
-  41 |             loop
-  42 |             playsInline
-> 43 |             muted={false}   {/* Set to true if you want muted autoplay */}
-     |                                                                          ^
-  44 |             onClick={togglePlay}
-  45 |           />
-  46 |
-
-Expected '</', got '}'
-
-Import traces:
-  Client Component Browser:
-    ./components/videoreel.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Client Component Browser]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/videoreel.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Client Component SSR]
-    ./components/client-layout.tsx [Server Component]
-    ./app/page.tsx [Server Component]
-[07:30:08.161] Server  LOG      ✓ Compiled in 55ms
-[07:30:36.845] Server  LOG      ✓ Compiled in 68ms
-[07:33:15.207] Server  LOG      ✓ Compiled in 69ms
-[07:35:11.387] Server  LOG      ✓ Compiled in 68ms
-[07:35:40.174] Server  LOG      ✓ Compiled in 74ms
-[07:36:50.119] Server  LOG      ✓ Compiled in 73ms
-[07:38:41.759] Server  LOG      ✓ Compiled in 85ms
-[07:39:27.123] Server  LOG      ✓ Compiled in 71ms
-[07:40:44.161] Server  LOG      ✓ Compiled in 75ms
-[07:40:49.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[07:40:49.226] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763590611729}
-[07:41:02.077] Server  LOG      ✓ Compiled in 70ms
-[07:43:52.263] Server  LOG      ✓ Compiled in 75ms
-[07:44:40.795] Server  LOG      ✓ Compiled in 129ms
-[07:45:27.279] Server  LOG      ✓ Compiled in 63ms
-[07:45:48.320] Server  LOG      ✓ Compiled in 54ms
-[07:46:34.421] Server  LOG      ✓ Compiled in 56ms
-[07:46:54.433] Server  LOG      ✓ Compiled in 86ms
-[07:47:11.763] Server  LOG      ✓ Compiled in 56ms
-[07:47:34.482] Server  LOG      ✓ Compiled in 63ms
-[07:47:57.998] Server  LOG      ✓ Compiled in 57ms
-[07:48:20.913] Server  LOG      ✓ Compiled in 60ms
-[07:51:04.047] Server  LOG      ✓ Compiled in 59ms
-[07:51:48.754] Server  LOG      ✓ Compiled in 54ms
-[07:53:05.013] Server  LOG      ✓ Compiled in 70ms
-[07:53:22.546] Server  LOG      ✓ Compiled in 126ms
-[07:53:34.715] Server  LOG      ✓ Compiled in 123ms
-[07:55:21.062] Server  LOG      ✓ Compiled in 102ms
-[08:00:27.062] Server  LOG      ✓ Compiled in 145ms
-[08:01:20.089] Server  LOG      ✓ Compiled in 76ms
-[08:01:37.446] Server  LOG      ✓ Compiled in 125ms
-[08:04:01.607] Server  LOG      ✓ Compiled in 67ms
-[08:04:51.113] Server  LOG      ✓ Compiled in 68ms
-[08:04:56.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[08:04:56.555] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763592059071}
-[08:05:05.474] Server  LOG      ✓ Compiled in 71ms
-[08:05:26.444] Server  LOG      ✓ Compiled in 86ms
-[08:05:42.576] Server  LOG      ✓ Compiled in 63ms
-[08:06:21.678] Server  LOG      ✓ Compiled in 54ms
-[08:09:06.530] Server  LOG      ✓ Compiled in 64ms
-[08:09:12.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[08:09:12.652] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763592315177}
-[08:09:53.981] Server  LOG      ✓ Compiled in 62ms
-[08:10:26.300] Server  LOG      ✓ Compiled in 70ms
-[08:10:44.831] Server  LOG      ✓ Compiled in 88ms
-[08:13:14.593] Server  LOG      ✓ Compiled in 71ms
-[08:13:40.779] Server  LOG      ✓ Compiled in 124ms
-[08:14:00.338] Server  LOG      ✓ Compiled in 62ms
-[08:15:00.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[08:15:01.032] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[08:15:01.032] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[08:15:01.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763592663553}
-[08:16:44.371] Server  LOG      ✓ Compiled in 119ms
-[08:23:29.210] Server  LOG      ✓ Compiled in 137ms
-[08:24:40.380] Server  LOG      ✓ Compiled in 69ms
-[08:26:20.622] Server  LOG      ✓ Compiled in 148ms
-[08:26:46.254] Server  LOG      ✓ Compiled in 72ms
-[08:29:02.096] Server  LOG      ✓ Compiled in 67ms
-[08:29:27.815] Server  LOG      ✓ Compiled in 65ms
-[08:30:17.802] Server  LOG      ✓ Compiled in 81ms
-[08:30:27.264] Server  LOG      ✓ Compiled in 65ms
-[08:31:45.202] Server  LOG      ✓ Compiled in 68ms
-[08:31:48.969] Server  LOG      ✓ Compiled in 65ms
-[08:32:18.971] Server  LOG      ✓ Compiled in 61ms
+[00:00:01.270] Server  LOG      ✓ Ready in 807ms
+[00:00:03.787] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:05.070] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:06.152] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.153] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:40.277] Server  LOG      ✓ Compiled in 371ms
+[00:00:41.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:42.149] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:42.149] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:42.150] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600385884}
+[00:00:54.453] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:54.653] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:54.653] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:54.653] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600399213}
+[00:00:56.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.042] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:57.042] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:57.042] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600401612}
+[00:04:23.127] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:04:37.275] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.277] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.278] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.278] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.280] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.281] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.282] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.283] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.284] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.285] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.286] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.288] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.289] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.290] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.290] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.291] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.293] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.294] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.295] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.296] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.297] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.298] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.298] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.300] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.302] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.303] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.304] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.305] Server  ERROR    ⨯ ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:37.326] Server  LOG      ✓ Compiled in 94ms
+[00:04:38.151] Browser ERROR   ./app/layout.tsx
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown font
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+Error while looking up import map: Unknown font
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown font
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:25.552] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:25.715] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:05:26.161] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:26.162] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:26.162] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600670348}
+[00:09:24.344] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\.next\dev\server\chunks\ssr\[root-of-the-server]__ed2282fe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:09:24.347] Server  ERROR    ⨯ ReferenceError: GeistSans is not defined
+[00:09:24.353] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:24.379] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\.next\dev\server\chunks\ssr\[root-of-the-server]__ed2282fe._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:09:24.380] Server  ERROR    ⨯ ReferenceError: GeistSans is not defined
+[00:09:24.447] Server  LOG      ✓ Compiled in 1031ms
+[00:09:24.641] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:25.147] Browser ERROR   uncaughtError: ReferenceError: GeistSans is not defined
+[00:09:26.721] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:27.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:27.228] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:28.155] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:28.155] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:28.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600911835}
+[00:09:31.537] Server  LOG      ✓ Compiled in 204ms
+[00:09:52.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:53.052] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:53.052] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:53.052] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600937624}
+[00:11:27.572] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\.next\dev\server\chunks\ssr\[root-of-the-server]__98b9ee30._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:27.573] Server  ERROR    ⨯ ReferenceError: poppins is not defined
+[00:11:27.580] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:27.591] Server  LOG      ✓ Compiled in 886ms
+[00:11:27.614] Server  ERROR   C:\Users\dell\Desktop\Sylver\CODE PROJECTS\Nextjs Projects\lampsiheirs-limited\.next\dev\server\chunks\ssr\[root-of-the-server]__98b9ee30._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:27.615] Server  ERROR    ⨯ ReferenceError: poppins is not defined
+[00:11:27.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:27.876] Browser ERROR   uncaughtError: ReferenceError: poppins is not defined
+[00:11:28.342] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:28.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:28.909] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:29.159] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:29.159] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:11:29.159] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601033489}
+[00:11:30.019] Server  LOG      ✓ Compiled in 207ms

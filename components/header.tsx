@@ -10,7 +10,6 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-  SheetClose,
 } from '@/components/ui/sheet'
 
 export default function Header() {
@@ -33,14 +32,13 @@ export default function Header() {
 
   const handleLinkClick = (href: string) => {
     setOpen(false)
-    // Smooth scroll with slight delay to ensure sheet closes first
     setTimeout(() => {
       document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
     }, 100)
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/30 backdrop-blur-md border-b border-border/50">
+    <header className="sticky top-0 left-0 right-0 z-50 bg-background/30 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
 
@@ -84,22 +82,27 @@ export default function Header() {
 
             <SheetContent
               side="right"
-              className="w-full max-w-none sm:w-[400px] p-0 bg-gradient-to-b from-background via-background to-background/98"
+              className="w-full max-w-none sm:w-[400px] p-0 bg-background/98 backdrop-blur-xl"
             >
-              {/* Custom Header with Close Button */}
-              <SheetHeader className="flex flex-row items-center justify-between p-6 pb-4 border-b border-border/30">
+              {/* Clean Header with Logo + Single Close Button */}
+              <SheetHeader className="flex flex-row items-center justify-between p-6 border-b border-border/30">
                 <SheetTitle className="text-left">
                   <Link href="#" onClick={() => setOpen(false)} className="flex items-center space-x-3">
-                    <div className="text-2xl font-bold text-primary">Lampsi Heirs</div>
+                    <span className="text-2xl font-bold text-primary">Lampsi Heirs</span>
                   </Link>
                 </SheetTitle>
-                <SheetClose className="rounded-full p-2 hover:bg-accent/50 transition">
+
+                {/* Only ONE close button — clean & professional */}
+                <button
+                  onClick={() => setOpen(false)}
+                  className="rounded-full p-2 hover:bg-accent/50 transition"
+                >
                   <X size={26} className="text-foreground/70" />
-                </SheetClose>
+                </button>
               </SheetHeader>
 
-              {/* Navigation Links */}
-              <nav className="flex flex-col px-6 py-6 space-y-1">
+              {/* Navigation */}
+              <nav className="px-6 py-8 space-y-1">
                 {navItems.map((item, index) => (
                   <div key={item.label}>
                     <a
@@ -108,26 +111,25 @@ export default function Header() {
                         e.preventDefault()
                         handleLinkClick(item.href)
                       }}
-                      className="block py-4 px-2 -mx-2 rounded-lg text-xl font-medium text-foreground hover:text-primary hover:bg-accent/50 transition-all duration-200 tap-highlight-transparent"
+                      className="block py-4 text-xl font-medium text-foreground hover:text-primary hover:bg-accent/40 rounded-lg px-3 -mx-3 transition-all"
                     >
                       {item.label}
                     </a>
                     {index < navItems.length - 1 && (
-                      <div className="h-px bg-border/30 -mx-2" />
+                      <div className="h-px bg-border/20 last:hidden" />
                     )}
                   </div>
                 ))}
               </nav>
 
-              {/* WhatsApp CTA - Sticky at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 bg-background/95 backdrop-blur-lg border-t border-border/50">
+              {/* Sticky WhatsApp Button at Bottom */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-background/95 backdrop-blur-xl border-t border-border/30">
                 <Button
                   onClick={() => {
                     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')
                     setOpen(false)
                   }}
-                  className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-white shadow-xl"
-                  size="lg"
+                  className="w-full h-14 text-lg font-bold bg-primary hover:bg-primary/90 text-white shadow-2xl"
                 >
                   Chat on WhatsApp
                 </Button>
@@ -136,7 +138,6 @@ export default function Header() {
                 </p>
               </div>
 
-              {/* Extra bottom padding to avoid overlap */}
               <div className="pb-32" />
             </SheetContent>
           </Sheet>

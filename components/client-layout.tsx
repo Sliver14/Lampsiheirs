@@ -16,7 +16,9 @@ import VideoReels from '@/components/videoreel'
 
 export default function ClientLayout() {
   return (
-    <>
+    <div
+      className="bg-background text-foreground min-h-screen w-screen overflow-x-hidden"
+    >
       {/* <Header /> */}
       <Hero />
       <Services />
@@ -30,6 +32,6 @@ export default function ClientLayout() {
       <FAQs />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }

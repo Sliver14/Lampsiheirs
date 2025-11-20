@@ -87,7 +87,7 @@ export default function Hero() {
   )
 
   return (
-    <section className="relative min-h-screen flex flex-col">
+    <section className="relative min-h-screen w-screen flex flex-col justify-center overflow-hidden">
       {/* Full-screen Background Image */}
       <div className="absolute inset-0 z-0">
         <Image

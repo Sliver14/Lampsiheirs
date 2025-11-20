@@ -22,7 +22,6 @@ export default function ClientLayout() {
       {/* <Header /> */}
       <Hero />
       <Services />
-      {/* <ProductsGallery /> */}
       <Products />
       <Projects />
       <VideoReels />

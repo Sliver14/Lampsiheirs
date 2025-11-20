@@ -24,7 +24,7 @@ export default function Hero() {
         />
         {/* Dark Overlay — This one will NEVER fail */}
         <div 
-          className="absolute inset-0 bg-amber-900/60 backdrop-blur-xs"
+          className="absolute inset-0 bg-amber-900/60 "
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }} // Extra insurance
         />
       </div>

@@ -7,22 +7,22 @@ export default function Products() {
     {
       name: 'Floor & Wall Tiles',
       description: 'Floor & wall tiles, kitchen tiles, marble and porcelain — styles for modern to classic interiors.',
-      image: '/floor-and-wall-tiles-porcelain-marble.jpg'
+      image: '/products/tile.jpg'
     },
     {
       name: 'Bathroom & Sanitary Wares',
       description: 'Modern designs perfect for contemporary kitchens.',
-      image: '/kitchen-tiles-backsplash-modern.jpg'
+      image: '/products/bathroom.webp'
     },
     {
       name: 'Doors & Interior Solutions',
       description: 'Interior doors, trims, thresholds and finishing accessories.',
-      image: '/bathroom-suites-basins-toilets.jpg'
+      image: '/interior-doors-pvc-cladding.jpg'
     },
     {
       name: 'Installation & Construction',
       description: 'Full tiling and bathroom installation services — from site prep to grout and seal.',
-      image: '/luxury-bathtubs-jacuzzis-bathroom.jpg'
+      image: '/products/installation.jpg'
     },
     {
       name: 'Outdoor & Parking Tiles',
@@ -32,7 +32,7 @@ export default function Products() {
     {
       name: 'Nationwide Delivery',
       description: 'We ship direct to site — Lagos, Abuja, Port Harcourt, Enugu, Ibadan and beyond.',
-      image: '/interior-doors-pvc-cladding.jpg'
+      image: '/products/nationwide.jpg'
     }
   ]
 

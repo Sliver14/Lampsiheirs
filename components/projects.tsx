@@ -1,39 +1,42 @@
 'use client'
 
+import { useRouter } from 'next/navigation'
+
 import { MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function Projects() {
+  const router = useRouter();
   const projects = [
     {
       name: 'Duplex bathroom overhaul',
-      location: 'Abuja',
-      image: '/luxury-duplex-bathroom-renovation.jpg'
+      // location: 'Abuja',
+      image: '/featured/IMG-20251120-WA0020.jpg'
     },
     {
       name: '5-bedroom apartment tiling',
-      location: 'Lagos',
-      image: '/5-bedroom-apartment-tiling-installation.jpg'
+      // location: 'Lagos',
+      image: '/featured/IMG-20251120-WA0036.jpg'
     },
     {
       name: 'Hotel bathroom renovation',
-      location: 'Port Harcourt',
-      image: '/hotel-bathroom-luxury-renovation-tiles.jpg'
+      // location: 'Port Harcourt',
+      image: '/featured/IMG-20251120-WA0022.jpg'
     },
     {
       name: 'Marble living room feature',
-      location: 'Enugu',
-      image: '/marble-living-room-feature-wall.jpg'
+      // location: 'Enugu',
+      image: '/featured/IMG-20251120-WA0028.jpg'
     },
     {
       name: 'External parking & walkways',
-      location: 'Ibadan',
-      image: '/outdoor-parking-tiles-walkway-installation.jpg'
+      // location: 'Ibadan',
+      image: '/featured/IMG-20251120-WA0030.jpg'
     },
     {
       name: 'Commercial complex tiling',
-      location: 'Nationwide',
-      image: '/commercial-building-tiles-installation.jpg'
+      // location: 'Nationwide',
+      image: '/featured/IMG-20251120-WA0034.jpg'
     }
   ]
 
@@ -59,10 +62,10 @@ export default function Projects() {
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-foreground mb-2">{project.name}</h3>
-                <div className="flex items-center gap-2 text-muted-foreground">
+                {/* <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin size={16} />
                   <p className="text-sm">{project.location}</p>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
@@ -71,7 +74,7 @@ export default function Projects() {
       {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6 sm:w-2xl mx-auto mt-10">
               <Button
-                // onClick={}
+                onClick={()=> router.push('/projects')}
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-semibold shadow-xl transition-all"
               >

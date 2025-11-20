@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
           {/* Company Info */}
-          <div className="sm:col-span-2 lg:col-span-1">
+          <div className="sm:col-span-2 space-y-2 lg:col-span-1">
             <Image
                 src="/lampsi_logo(2).png"
                 alt="Lampsi Heirs Limited Logo"

@@ -836,3 +836,1174 @@ https://nextjs.org/docs/messages/module-not-found
 [00:11:29.159] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [00:11:29.159] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601033489}
 [00:11:30.019] Server  LOG      ✓ Compiled in 207ms
+[00:16:13.208] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:16:14.147] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:18:27.574] Server  WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:18:27.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:28.150] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:18:28.150] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:28.150] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:28.150] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601452712}
+[00:19:49.360] Server  LOG      ✓ Compiled in 123ms
+[00:19:50.154] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:52.641] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:19:52.728] Server  WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:53.079] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:53.264] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:53.264] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:53.264] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:53.264] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601537834}
+[00:21:35.159] Server  LOG      ✓ Compiled in 57ms
+[00:23:50.005] Server  LOG      ✓ Compiled in 129ms
+[00:25:49.789] Server  LOG      ✓ Compiled in 62ms
+[00:26:55.447] Server  LOG      ✓ Compiled in 70ms
+[00:27:33.742] Server  LOG      ✓ Compiled in 101ms
+[00:28:43.172] Server  LOG      ✓ Compiled in 69ms
+[00:28:57.027] Server  LOG      ✓ Compiled in 52ms
+[00:30:24.863] Server  LOG      ✓ Compiled in 62ms
+[00:33:14.382] Server  LOG      ✓ Compiled in 61ms
+[00:33:20.520] Server  LOG      ✓ Compiled in 61ms
+[00:33:48.493] Server  LOG      ✓ Compiled in 81ms
+[00:33:57.489] Server  LOG      ✓ Compiled in 79ms
+[00:34:14.164] Server  LOG      ✓ Compiled in 59ms
+[00:34:31.969] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:34:32.044] Server  WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:34:32.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:32.706] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:34:32.706] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:32.706] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:34:32.706] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763602417276}
+[00:34:35.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:35.733] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:34:35.733] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:35.733] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:34:35.733] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763602420302}
+[00:36:20.373] Server  LOG      ✓ Compiled in 64ms
+[00:37:03.412] Server  LOG      ✓ Compiled in 72ms
+[00:37:04.158] Browser WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:37:13.352] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:37:13.417] Server  WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:37:13.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:13.986] Browser WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:37:13.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:13.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:13.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763602578553}
+[00:37:32.563] Server  LOG      ✓ Compiled in 131ms
+[00:37:43.110] Server  LOG      ✓ Compiled in 66ms
+[00:38:06.573] Server  LOG      ✓ Compiled in 60ms
+[00:38:18.189] Server  LOG      ✓ Compiled in 62ms
+[00:38:33.116] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[06:49:15.523] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[06:49:25.717] Server  LOG      ✓ Compiled in 63ms
+[06:50:17.841] Server  LOG      ✓ Compiled in 93ms
+[06:50:26.356] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[06:50:26.433] Server  WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[06:50:26.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:50:27.047] Browser WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[06:50:27.047] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[06:50:27.047] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[06:50:27.047] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763624961194}
+[06:51:05.587] Server  LOG      ✓ Compiled in 82ms
+[06:51:46.154] Server  LOG      ✓ Compiled in 100ms
+[06:52:37.504] Server  LOG      ✓ Compiled in 66ms
+[06:53:21.635] Server  LOG      ✓ Compiled in 64ms
+[06:58:23.517] Server  LOG      ✓ Compiled in 56ms
+[06:58:32.720] Server  LOG      ✓ Compiled in 64ms
+[06:59:07.235] Server  LOG      ✓ Compiled in 138ms
+[06:59:36.180] Server  LOG      ✓ Compiled in 61ms
+[06:59:58.991] Server  LOG      ✓ Compiled in 121ms
+[07:00:02.420] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:00:02.513] Server  WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:00:02.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:00:03.109] Browser WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:00:03.109] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:00:03.109] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:00:03.109] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763625537259}
+[07:01:01.919] Server  LOG      ✓ Compiled in 64ms
+[07:02:49.858] Server  LOG      ✓ Compiled in 64ms
+[07:02:54.010] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:02:54.071] Server  WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:02:54.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:02:54.620] Browser WARN    Image with src "/public/wall-accessories-bathroom-trim.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:02:54.620] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:02:54.620] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:02:54.620] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763625708771}
+[07:03:22.320] Server  LOG      ✓ Compiled in 61ms
+[07:03:24.968] Server  LOG      ✓ Compiled in 63ms
+[07:04:02.739] Server  LOG      ✓ Compiled in 127ms
+[07:04:54.971] Server  LOG      ✓ Compiled in 75ms
+[07:05:11.369] Server  LOG      ✓ Compiled in 72ms
+[07:05:31.270] Server  LOG      ✓ Compiled in 66ms
+[07:06:08.490] Server  LOG      ✓ Compiled in 64ms
+[07:06:22.598] Server  LOG      ✓ Compiled in 70ms
+[07:06:36.890] Server  LOG      ✓ Compiled in 65ms
+[07:08:04.454] Server  LOG      ✓ Compiled in 130ms
+[07:08:57.554] Server  LOG      ✓ Compiled in 116ms
+[07:09:27.414] Server  LOG      ✓ Compiled in 61ms
+[07:09:42.936] Server  LOG      ✓ Compiled in 67ms
+[07:10:03.203] Server  LOG      ✓ Compiled in 58ms
+[07:10:29.821] Server  LOG      ✓ Compiled in 99ms
+[07:10:39.091] Server  LOG      ✓ Compiled in 60ms
+[07:10:53.869] Server  LOG      ✓ Compiled in 59ms
+[07:11:09.002] Server  LOG      ✓ Compiled in 57ms
+[07:11:55.103] Server  LOG      ✓ Compiled in 58ms
+[07:12:15.196] Server  LOG      ✓ Compiled in 133ms
+[07:15:07.542] Server  LOG      ✓ Compiled in 62ms
+[07:15:30.706] Server  LOG      ✓ Compiled in 165ms
+[07:16:49.073] Server  LOG      ✓ Compiled in 79ms
+[07:16:49.156] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:18:18.341] Server  LOG      ✓ Compiled in 63ms
+[07:18:46.145] Server  LOG      ✓ Compiled in 76ms
+[07:19:30.326] Server  LOG      ✓ Compiled in 56ms
+[07:19:44.188] Server  LOG      ✓ Compiled in 62ms
+[07:19:54.206] Server  LOG      ✓ Compiled in 61ms
+[07:20:32.763] Server  LOG      ✓ Compiled in 66ms
+[07:20:49.373] Server  LOG      ✓ Compiled in 118ms
+[07:21:00.016] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:21:00.086] Server  WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:21:00.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:21:00.767] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:21:00.956] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:21:00.956] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:21:00.956] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763626795107}
+[07:21:16.037] Server  LOG      ✓ Compiled in 63ms
+[07:21:23.106] Server  LOG      ✓ Compiled in 140ms
+[07:21:45.290] Server  LOG      ✓ Compiled in 72ms
+[07:21:53.805] Server  LOG      ✓ Compiled in 55ms
+[07:23:48.588] Server  LOG      ✓ Compiled in 60ms
+[07:24:41.461] Server  LOG      ✓ Compiled in 71ms
+[07:25:28.206] Server  LOG      ✓ Compiled in 57ms
+[07:25:37.036] Server  LOG      ✓ Compiled in 139ms
+[07:25:55.273] Server  LOG      ✓ Compiled in 66ms
+[07:28:58.907] Server  LOG      ✓ Compiled in 61ms
+[07:29:03.191] Server  LOG      ✓ Compiled in 74ms
+[07:29:14.591] Server  LOG      ✓ Compiled in 70ms
+[07:31:20.408] Server  LOG      ✓ Compiled in 129ms
+[07:36:15.692] Server  LOG      ✓ Compiled in 93ms
+[07:36:16.148] Browser WARN    Image with src "/hero.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:36:57.074] Server  LOG      ✓ Compiled in 60ms
+[07:37:05.957] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:37:06.032] Server  WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:06.035] Server  WARN    Image with src "/hero.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:06.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:37:06.762] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:06.762] Browser WARN    Image with src "/hero.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:06.762] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:37:06.762] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:37:06.762] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763627760902}
+[07:37:40.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:37:40.222] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:40.222] Browser WARN    Image with src "/hero.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:37:40.222] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:37:40.222] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:37:40.222] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763627794363}
+[07:38:27.076] Server  LOG      ✓ Compiled in 76ms
+[07:38:39.741] Server  LOG      ✓ Compiled in 58ms
+[07:39:44.055] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.056] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.057] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.059] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.063] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.064] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.066] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.067] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.069] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.070] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.071] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.072] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.073] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.074] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.076] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.080] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.083] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.086] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.088] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.089] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.091] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.092] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.093] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.095] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.097] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.099] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.101] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.102] Server  ERROR    ⨯ ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[07:39:44.104] Server  LOG      ✓ Compiled in 93ms
+[07:39:45.149] Browser ERROR   ./components/header.tsx:1:1
+Module not found: Can't resolve '@/components/Header'
+> 1 | import Header from '@/components/Header'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Image from 'next/image'
+  3 |
+  4 | export default function HomePage() {
+
+Import map: aliased to relative './components/Header' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[07:42:07.941] Server  LOG      ✓ Compiled in 64ms
+[07:44:34.006] Server  LOG      ✓ Compiled in 133ms
+[07:44:34.145] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:45:16.493] Server  LOG      ✓ Compiled in 76ms
+[07:45:24.139] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:45:24.214] Server  WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:45:24.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:45:24.809] Browser WARN    Image with src "/public/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:45:24.809] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:45:24.809] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:45:24.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763628258955}
+[07:46:02.859] Server  LOG      ✓ Compiled in 133ms
+[07:46:09.914] Server  LOG      ✓ Compiled in 70ms
+[07:48:21.815] Server  LOG      ✓ Compiled in 61ms
+[07:48:22.144] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:49:28.503] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:49:36.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:49:36.124] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:49:36.124] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:49:36.124] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763628510267}
+[07:50:23.948] Server  LOG      ✓ Compiled in 70ms
+[07:50:44.143] Server  LOG      ✓ Compiled in 87ms
+[07:50:48.588] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:50:48.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:50:49.060] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:50:49.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:50:49.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763628583207}
+[07:51:22.131] Server  LOG      ✓ Compiled in 66ms
+[07:51:25.957] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:51:26.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:51:26.545] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:51:26.545] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:51:26.545] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763628620688}
+[07:51:52.009] Server  LOG      ✓ Compiled in 56ms
+[07:52:01.661] Server  LOG      ✓ Compiled in 117ms
+[07:52:04.873] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:52:05.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:52:05.359] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:52:05.359] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:52:05.359] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763628659505}
+[07:52:09.645] Server  LOG      ✓ Compiled in 81ms
+[07:52:15.894] Server  LOG      ✓ Compiled in 70ms
+[07:52:23.775] Server  LOG      ✓ Compiled in 61ms
+[07:52:49.440] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[07:52:50.161] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[07:53:15.462] Server  LOG      ✓ Compiled in 131ms
+[07:54:41.722] Server  LOG      ✓ Compiled in 113ms
+[07:55:13.642] Server  LOG      ✓ Compiled in 54ms
+[07:56:15.144] Server  LOG      ✓ Compiled in 67ms
+[07:56:43.659] Server  LOG      ✓ Compiled in 56ms
+[07:56:54.228] Server  LOG      ✓ Compiled in 70ms
+[07:57:07.202] Server  LOG      ✓ Compiled in 65ms
+[07:58:31.977] Server  LOG      ✓ Compiled in 61ms
+[07:58:46.674] Server  LOG      ✓ Compiled in 142ms
+[07:58:56.855] Server  LOG      ✓ Compiled in 67ms
+[07:59:09.796] Server  LOG      ✓ Compiled in 71ms
+[07:59:40.444] Server  LOG      ✓ Compiled in 135ms
+[07:59:58.511] Server  LOG      ✓ Compiled in 155ms
+[08:00:10.580] Server  LOG      ✓ Compiled in 66ms
+[08:00:22.744] Server  LOG      ✓ Compiled in 119ms
+[08:00:46.898] Server  LOG      ✓ Compiled in 257ms
+[08:01:49.961] Server  LOG      ✓ Compiled in 58ms
+[08:01:50.145] Browser WARN    Image with src "/public/commercial-building-tiles-installation.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[08:01:57.819] Server  LOG      ✓ Compiled in 65ms
+[08:01:58.145] Browser WARN    Image with src "/commercial-building-tiles-installation.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[08:03:48.261] Server  LOG      ✓ Compiled in 228ms
+[08:06:13.585] Server  LOG      ✓ Compiled in 147ms
+[08:06:29.775] Server  LOG      ✓ Compiled in 124ms
+[08:06:59.779] Server  LOG      ✓ Compiled in 81ms
+[08:07:45.864] Server  LOG      ✓ Compiled in 140ms
+[08:08:08.030] Server  LOG      ✓ Compiled in 111ms
+[08:09:04.397] Server  LOG      ✓ Compiled in 61ms
+[08:09:13.041] Server  LOG      ✓ Compiled in 138ms
+[08:09:22.008] Server  LOG      ✓ Compiled in 127ms
+[08:09:27.608] Server  LOG      ✓ Compiled in 74ms
+[08:09:34.470] Server  LOG      ✓ Compiled in 126ms
+[08:10:06.179] Server  LOG      ✓ Compiled in 68ms
+[08:10:23.749] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:23.749] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:23.749] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:23.749] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:30.648] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:30.648] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:30.648] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:30.648] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:36.762] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:36.762] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:36.762] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:36.762] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:45.229] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:45.229] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:10:45.229] Browser ERROR   `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog
+[08:10:45.229] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:24.908] Server  LOG      ✓ Compiled in 153ms
+[08:12:31.315] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:31.315] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:46.469] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:46.469] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:55.443] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:12:55.443] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:13:07.098] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[08:13:07.098] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

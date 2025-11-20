@@ -17,7 +17,7 @@ import VideoReels from '@/components/videoreel'
 export default function ClientLayout() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Services />
       {/* <ProductsGallery /> */}

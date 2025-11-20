@@ -91,7 +91,7 @@ export default function Hero() {
       {/* Full-screen Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/commercial-building-tiles-installation.jpg"  // Correct path (inside /public folder)
+          src="/porcelain-tiles-modern-design.jpg"  // Correct path (inside /public folder)
           alt="Premium tiles and sanitary wares showroom"
           fill
           priority
@@ -100,7 +100,7 @@ export default function Hero() {
         />
         {/* Dark Overlay — This one will NEVER fail */}
         <div 
-          className="absolute inset-0 bg-orange-950/60 backdrop-blur-xs"
+          className="absolute inset-0 bg-amber-900/60 backdrop-blur-xs"
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }} // Extra insurance
         />
       </div>
@@ -117,16 +117,18 @@ export default function Hero() {
             <span className="inline-block bg-white/20 text-white backdrop-blur-sm px-5 py-2.5 rounded-full text-sm sm:text-base font-medium border border-white/30">
               Premium Quality Tiles & Sanitary Wares
             </span>
+            <div className='flex flex-col gap-2'>
+              {/* Main Heading - Responsive */}
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white">
+                Beautiful Spaces Start<br className="sm:hidden" /> with Quality
+              </h1>
 
-            {/* Main Heading - Responsive */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white">
-              Beautiful Spaces Start<br className="sm:hidden" /> with Quality.
-            </h1>
-
-            {/* Subheading */}
-            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-              Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery & Professional Installation.
-            </p>
+              {/* Subheading */}
+              <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
+                Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery & Professional Installation.
+              </p>
+            </div>
+            
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6">

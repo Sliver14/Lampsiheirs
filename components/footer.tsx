@@ -145,7 +145,7 @@ export default function Footer() {
                 <span className="text-white/70">Phone:</span>
                 <a
                   href="tel:+2347034523498"
-                  className="font-semibold text-white hover:underline"
+                  className="font-semibold text-white/70 hover:text-white transition duration-200"
                 >
                   +234 703 452 3498
                 </a>
@@ -154,7 +154,7 @@ export default function Footer() {
                 <span className="text-white/70">Email:</span>
                 <a
                   href="mailto:victorcourage375@gmail.com"
-                  className="font-semibold text-white hover:underline break-all"
+                  className="font-semibold text-white/70 hover:text-white transition duration-200"
                 >
                   victorcourage375@gmail.com
                 </a>

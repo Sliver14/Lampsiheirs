@@ -149,3 +149,279 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [01:24:02.951] Server  LOG      ✓ Compiled in 188ms
 [01:24:09.945] Server  LOG      ✓ Compiled in 86ms
 [01:25:04.227] Server  LOG      ✓ Compiled in 227ms
+[01:26:13.943] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:26:14.006] Server  WARN    Image with src "/commercial-building-tiles-installation.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:26:14.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:14.590] Browser WARN    Image with src "/commercial-building-tiles-installation.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:26:14.590] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:26:14.590] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:26:14.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763635296989}
+[01:46:12.504] Server  LOG      ✓ Compiled in 72ms
+[01:46:12.889] Browser WARN    Image with src "/interior-doors-pvc-cladding.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:46:51.876] Server  LOG      ✓ Compiled in 87ms
+[01:46:52.890] Browser WARN    Image with src "/premium-tiles-and-sanitary-wares-showroom.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:47:46.549] Server  LOG      ✓ Compiled in 75ms
+[01:47:46.891] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:27.025] Server  LOG      ✓ Compiled in 150ms
+[01:48:30.504] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:48:30.567] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:30.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:31.105] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:48:31.105] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:48:31.105] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:48:31.105] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763636633513}
+[01:57:39.563] Server  LOG      ✓ Compiled in 86ms
+[01:57:47.593] Server  LOG      ✓ Compiled in 76ms
+[01:58:29.092] Server  LOG      ✓ Compiled in 71ms
+[01:59:13.574] Server  LOG      ✓ Compiled in 78ms
+[01:59:22.547] Server  LOG      ✓ Compiled in 72ms
+[01:59:52.069] Server  LOG      ✓ Compiled in 65ms
+[02:02:54.758] Server  LOG      ✓ Compiled in 78ms
+[02:03:12.620] Server  LOG      ✓ Compiled in 71ms
+[02:03:21.322] Server  LOG      ✓ Compiled in 77ms
+[02:04:44.878] Server  LOG      ✓ Compiled in 75ms
+[02:05:04.477] Server  LOG      ✓ Compiled in 74ms
+[02:05:14.343] Server  LOG      ✓ Compiled in 77ms
+[02:05:24.039] Server  LOG      ✓ Compiled in 79ms
+[02:05:35.313] Server  LOG      ✓ Compiled in 127ms
+[02:06:13.459] Server  LOG      ✓ Compiled in 140ms
+[02:06:41.430] Server  LOG      ✓ Compiled in 79ms
+[02:06:45.943] Server  LOG      ✓ Compiled in 137ms
+[02:07:04.564] Server  LOG      ✓ Compiled in 87ms
+[02:07:20.149] Server  LOG      ✓ Compiled in 69ms
+[02:07:51.505] Server  LOG      ✓ Compiled in 157ms
+[02:12:22.048] Server  LOG      ✓ Compiled in 74ms
+[02:13:22.579] Server  LOG      ✓ Compiled in 74ms
+[02:14:59.132] Server  LOG      ✓ Compiled in 149ms
+[02:15:44.952] Server  LOG      ✓ Compiled in 175ms
+[02:16:11.981] Server  LOG      ✓ Compiled in 91ms
+[02:16:52.930] Server  LOG      ✓ Compiled in 89ms
+[02:19:29.731] Server  LOG      ✓ Compiled in 89ms
+[02:21:08.695] Server  LOG      ✓ Compiled in 65ms
+[02:24:14.197] Server  LOG      ✓ Compiled in 76ms
+[02:26:14.133] Server  LOG      ✓ Compiled in 88ms
+[02:27:30.653] Server  LOG      ✓ Compiled in 91ms
+[02:27:40.082] Server  LOG      ✓ Compiled in 75ms
+[02:30:16.284] Server  LOG      ✓ Compiled in 80ms
+[02:30:45.974] Server  LOG      ✓ Compiled in 71ms
+[02:30:50.029] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:30:50.092] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:30:50.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:50.590] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:30:50.699] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:30:50.699] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:30:50.699] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763639173104}
+[02:31:44.798] Server  LOG      ✓ Compiled in 82ms
+[02:32:40.964] Server  LOG      ✓ Compiled in 69ms
+[02:33:12.999] Server  LOG      ✓ Compiled in 77ms
+[02:38:44.080] Server  LOG      ✓ Compiled in 70ms
+[02:39:05.565] Server  LOG      ✓ Compiled in 75ms
+[02:39:19.177] Server  LOG      ✓ Compiled in 66ms
+[02:40:27.842] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:40:27.842] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:41:43.124] Server  LOG      ✓ Compiled in 96ms
+[02:41:49.679] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:41:49.679] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:41:57.817] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:41:57.817] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:42:08.245] Server  LOG      ✓ Compiled in 84ms
+[02:42:45.200] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:42:45.200] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:42:50.284] Server  LOG      ✓ Compiled in 101ms
+[02:43:04.582] Server  LOG      ✓ Compiled in 121ms
+[02:43:08.302] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:43:08.302] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:43:12.466] Server  LOG      ✓ Compiled in 84ms
+[02:43:18.315] Server  LOG      ✓ Compiled in 73ms
+[02:43:48.833] Server  LOG      ✓ Compiled in 85ms
+[02:43:55.287] Server  LOG      ✓ Compiled in 73ms
+[02:44:15.835] Server  LOG      ✓ Compiled in 85ms
+[02:44:32.833] Server  LOG      ✓ Compiled in 87ms
+[02:46:38.821] Server  LOG      ✓ Compiled in 116ms
+[02:46:39.886] Browser ERROR   ./components/header.tsx:145:7
+Parsing ecmascript source code failed
+  143 |           </Sheet>
+  144 |         </div>
+> 145 |       </div> */}
+      |       ^
+  146 |     </header>
+  147 |   )
+  148 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[02:46:51.941] Server  LOG      ✓ Compiled in 66ms
+[02:46:52.899] Browser ERROR   ./components/header.tsx:146:5
+Parsing ecmascript source code failed
+  144 |         </div> */}
+  145 |       </div>
+> 146 |     </header>
+      |     ^
+  147 |   )
+  148 | }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[02:46:52.899] Browser ERROR   ./components/header.tsx:144:18
+Parsing ecmascript source code failed
+  142 |             </SheetContent>
+  143 |           </Sheet>
+> 144 |         </div> */}
+      |                  ^
+  145 |       </div>
+  146 |     </header>
+  147 |   )
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[02:46:52.899] Browser ERROR   ./components/header.tsx:146:6
+Parsing ecmascript source code failed
+  144 |         </div> */}
+  145 |       </div>
+> 146 |     </header>
+      |      ^^^^^^^^
+  147 |   )
+  148 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/header.tsx [Client Component Browser]
+    ./components/hero.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/header.tsx [Client Component SSR]
+    ./components/hero.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[02:46:57.897] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:47:25.901] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:47:25.901] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[02:47:44.085] Server  LOG      ✓ Compiled in 76ms
+[02:47:44.899] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <ClientLayout>
+      <div className="bg-backgro...">
+        <Hero>
+          <section className="relative m...">
+            <div>
+            <Header>
+              <header className="fixed top-...">
+                <div className="max-w-7xl ...">
+                  <div className="flex items...">
+                    <LinkComponent>
+                    <nav>
+                    <Sheet open={true} onOpenChange={function bound dispatchSetState}>
+                      <Dialog data-slot="sheet" open={true} onOpenChange={function bound dispatchSetState}>
+                        <DialogProvider scope={undefined} triggerRef={{...}} contentRef={{...}} contentId="radix-_R_s..." ...>
+                          <SheetTrigger>
+                            <DialogTrigger data-slot="sheet-trigger">
+                              <Primitive.button type="button" aria-haspopup="dialog" aria-expanded={true} ...>
+>                               <button
+>                                 type="button"
+>                                 aria-haspopup="dialog"
+>                                 aria-expanded={true}
+>                                 aria-controls="radix-_R_s6atmlb_"
+>                                 data-state="open"
+>                                 data-slot="sheet-trigger"
+>                                 onClick={function handleEvent}
+>                                 ref={function}
+>                               >
+>                                 <button className="lg:hidden text-white hover:text-primary transition p-2 -mr-2">
+                          ...
+            ...
+        ...
+
+[02:47:44.899] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button>
+[02:47:50.058] Server  LOG      ✓ Compiled in 69ms
+[02:50:52.105] Server  LOG      ✓ Compiled in 167ms
+[02:50:52.900] Browser ERROR   ./components/services.tsx:103:9
+Parsing ecmascript source code failed
+  101 |         {/* Heading */}
+  102 |         <
+> 103 |         <div className="text-center mb-12 md:mb-16">
+      |         ^
+  104 |           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground leading-tight">
+  105 |             Why Lampsiheirs
+  106 |           </h2>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/services.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/services.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[02:51:56.140] Server  LOG      ✓ Compiled in 74ms
+[02:51:56.243] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:53:16.134] Server  LOG      ✓ Compiled in 165ms
+[02:53:42.038] Server  LOG      ✓ Compiled in 87ms
+[02:55:42.434] Server  LOG      ✓ Compiled in 75ms
+[02:55:52.702] Server  LOG      ✓ Compiled in 74ms
+[02:56:45.372] Server  LOG      ✓ Compiled in 71ms

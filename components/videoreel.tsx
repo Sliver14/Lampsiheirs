@@ -19,14 +19,27 @@ export default function VideoReelCompilation() {
   }
 
   return (
-    <section className="py-12 md:py-20 bg-background w-screen flex justify-center overflow-hidden">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section 
+    className="relative py-12 md:py-20 w-screen flex justify-center overflow-hidden"
+    style={{
+        backgroundImage: `url('/Gold_Background.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'scroll',
+      }}
+    >
+      {/* Light overlay to match the "Why" section */}
+      <div className="absolute inset-0 bg-amber-950/80" />
+      {/* <div className="absolute inset-0 bg-linear-to-b from-white/90 via-white/60 to-white/90" /> */}
+
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             See Our Work in Action
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-white">
             From tiles to complete bathroom transformations — watch real projects come to life.
           </p>
         </div>

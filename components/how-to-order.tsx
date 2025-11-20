@@ -16,7 +16,7 @@ export default function HowToOrder() {
   ]
 
   return (
-    <section className="py-16 md:py-24 lg:py-32 bg-background w-screen flex justify-center overflow-hidden">
+    <section className="py-16 md:py-24 lg:py-32 bg-white w-screen flex justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
@@ -34,7 +34,7 @@ export default function HowToOrder() {
           <div className="flex flex-col space-y-10 md:hidden">
             {steps.map((step, index) => (
               <div key={step.number} className="flex items-center gap-6">
-                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-bold shadow-lg">
+                <div className="flex shrink-0 w-14 h-14 rounded-full bg-primary text-white items-center justify-center text-2xl font-bold shadow-lg">
                   {step.number}
                 </div>
                 <div className="flex-1 text-left">
@@ -77,7 +77,7 @@ export default function HowToOrder() {
           <Button
             size="lg"
             variant="outline"
-            className="w-full sm:w-auto px-10 py-7 text-lg border-2 border-primary text-primary hover:bg-primary/10"
+            className="w-full sm:w-auto px-10 py-7 text-lg border-2 border-primary text-primary hover:text-primary hover:bg-primary/10"
             onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
           >
             Request Quote

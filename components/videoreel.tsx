@@ -40,7 +40,7 @@ export default function VideoReelCompilation() {
             See Our Work in Action
           </h2>
           <p className="text-lg text-white">
-            From tiles to complete bathroom transformations — watch real projects come to life.
+            <span className="hidden md:inline">From tiles to complete bathroom transformations —</span> watch real projects come to life.
           </p>
         </div>
 
@@ -49,8 +49,8 @@ export default function VideoReelCompilation() {
           <video
             ref={videoRef}
             className="w-full aspect-video object-cover"
-            poster="/public/5-bedroom-apartment-tiling-installation.jpg" 
-            src="/videos/compilation-reel.mp4"
+            poster="/5-bedroom-apartment-tiling-installation.jpg" 
+            src="/video/lampsiheirs-video-reel.mp4"
             loop
             playsInline
             muted={false} 
@@ -60,9 +60,11 @@ export default function VideoReelCompilation() {
           {/* Cover Play Button (only shows when paused) */}
           {!isPlaying && (
             <div className="absolute inset-0 flex items-center justify-center bg-black/40 cursor-pointer">
-              <div className="w-24 h-24 md:w-32 md:h-32 bg-white/95 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all animate-pulse">
-                <Play className="w-12 h-12 md:w-16 md:h-16 text-foreground ml-2" fill="currentColor" />
-              </div>
+              <Play 
+                className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 text-white ml-2 shrink-0" 
+                fill="currentColor" 
+                onClick={togglePlay}
+              />
             </div>
           )}
 
@@ -71,7 +73,7 @@ export default function VideoReelCompilation() {
             onClick={togglePlay}
             className="absolute bottom-4 right-4 w-12 h-12 bg-black/70 hover:bg-black/90 rounded-full flex items-center justify-center text-white backdrop-blur transition"
           >
-            {isPlaying ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6 ml-1" fill="currentColor" />}
+            {isPlaying ? <Pause className="w-6 h-6" /> : <Play className=" hidden w-6 h-6 ml-1" fill="currentColor" />}
           </button>
         </div>
 

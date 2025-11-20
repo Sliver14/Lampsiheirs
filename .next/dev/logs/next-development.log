@@ -425,3 +425,126 @@ Import traces:
 [02:55:42.434] Server  LOG      ✓ Compiled in 75ms
 [02:55:52.702] Server  LOG      ✓ Compiled in 74ms
 [02:56:45.372] Server  LOG      ✓ Compiled in 71ms
+[02:59:49.468] Server  LOG      ✓ Compiled in 77ms
+[03:00:35.138] Server  LOG      ✓ Compiled in 76ms
+[03:00:56.479] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:00:56.612] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:57.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:57.356] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:57.569] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:00:57.569] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:00:57.569] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763640979977}
+[03:02:01.819] Server  LOG      ✓ Compiled in 152ms
+[03:02:02.901] Browser ERROR   ./components/videoreel.tsx:48:81
+Parsing ecmascript source code failed
+  46 |
+  47 |         {/* Video Container */}
+> 48 |         <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+     |                                                                                 ^^
+  49 |           <video
+  50 |             ref={videoRef}
+  51 |             className="w-full aspect-video object-cover"
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./components/videoreel.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/videoreel.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[03:02:27.050] Server  LOG      ✓ Compiled in 76ms
+[03:02:27.176] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:02:31.525] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:02:32.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:32.258] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:02:32.519] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:02:32.519] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:02:32.519] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641074922}
+[03:02:44.201] Server  LOG      ✓ Compiled in 68ms
+[03:04:20.772] Server  LOG      ✓ Compiled in 170ms
+[03:04:45.651] Server  LOG      ✓ Compiled in 144ms
+[03:04:52.900] Server  LOG      ✓ Compiled in 72ms
+[03:05:02.325] Server  LOG      ✓ Compiled in 68ms
+[03:05:16.118] Server  LOG      ✓ Compiled in 74ms
+[03:05:21.997] Server  LOG      ✓ Compiled in 72ms
+[03:05:34.338] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:05:39.852] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:07:05.671] Server  LOG      ✓ Compiled in 188ms
+[03:07:10.824] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:07:21.544] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:07:23.068] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:07:30.708] Server  LOG      ✓ Compiled in 75ms
+[03:08:17.339] Server  LOG      ✓ Compiled in 75ms
+[03:08:22.405] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:08:44.770] Server  LOG      ✓ Compiled in 102ms
+[03:08:47.821] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:10:10.102] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:10:33.918] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:10:44.453] Server  LOG      ✓ Compiled in 69ms
+[03:11:06.989] Server  LOG      ✓ Compiled in 73ms
+[03:11:17.901] Server  LOG      ✓ Compiled in 66ms
+[03:11:21.345] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:13:33.830] Server  LOG      ✓ Compiled in 126ms
+[03:13:39.488] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:13:40.944] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:13:41.064] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:13:41.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:13:41.803] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:13:42.045] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:13:42.045] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:13:42.045] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641744429}
+[03:13:42.045] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:14:24.437] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:14:26.881] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:14:27.168] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:14:27.417] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:14:27.417] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:14:27.417] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641789718}
+[03:14:27.417] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:14:59.704] Server  LOG      ✓ Compiled in 105ms
+[03:15:03.265] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:15:03.391] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:15:03.906] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:15:04.124] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:15:04.276] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:15:04.276] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:15:04.276] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641826682}
+[03:15:04.580] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:15:11.520] Server  LOG      ✓ Compiled in 70ms
+[03:15:22.663] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:15:22.776] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:15:23.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:15:23.678] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:15:23.804] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:15:23.804] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:15:23.804] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:15:23.804] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641846205}
+[03:15:58.703] Server  LOG      ✓ Compiled in 69ms
+[03:16:03.373] Browser ERROR   unhandledRejection: NotSupportedError: The element has no supported sources.
+[03:16:04.662] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:16:04.788] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:16:05.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:16:05.468] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:16:05.661] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:16:05.661] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:16:05.661] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763641888060}

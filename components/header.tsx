@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Sheet,
   SheetContent,
@@ -44,12 +45,14 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="#" className="flex items-center space-x-2">
-            <h1 className="text-xl sm:text-2xl font-bold text-primary uppercase tracking-tight">
-              Lampsi Heirs
-            </h1>
-            <span className="hidden sm:block text-xs text-white/60 font-medium">
-              Limited
-            </span>
+            <Image
+              src="/lampsi_logo(2).png"
+              alt="Lampsi Heirs Limited Logo"
+              width={80}
+              height={40}
+              className="object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}

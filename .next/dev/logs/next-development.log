@@ -635,3 +635,48 @@ Import traces:
 [04:38:34.266] Server  LOG      ✓ Compiled in 356ms
 [04:38:59.030] Server  LOG      ✓ Compiled in 353ms
 [04:39:02.753] Server  LOG      ✓ Compiled in 259ms
+[04:56:38.215] Server  LOG      ✓ Compiled in 179ms
+[04:56:38.902] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[04:57:36.459] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:57:36.475] Server  LOG      ✓ Compiled in 233ms
+[04:57:36.651] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:57:36.749] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:57:37.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:57:37.903] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:57:37.903] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:57:37.903] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:57:37.903] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763647980219}
+[04:57:42.690] Browser WARN    Image with src "http://localhost:3000/lampsi_logo(2).png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:58:07.859] Server  LOG      ✓ Compiled in 209ms
+[04:58:34.182] Server  LOG      ✓ Compiled in 252ms
+[04:58:34.895] Browser ERROR   uncaughtError: Error: Image with src "/lampsi_logo(2).png" is missing required "height" property.
+[04:58:39.788] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:58:40.099] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:58:40.243] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:58:40.346] Server  LOG      ✓ Compiled in 226ms
+[04:58:40.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:58:40.900] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:58:40.900] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:58:40.901] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:58:40.901] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763648043297}
+[04:58:41.832] Browser WARN    Image with src "http://localhost:3000/lampsi_logo(2).png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:59:51.093] Server  LOG      ✓ Compiled in 186ms
+[04:59:51.892] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[05:00:05.504] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[05:00:05.631] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[05:00:05.716] Server  WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[05:00:05.785] Server  LOG      ✓ Compiled in 209ms
+[05:00:05.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:00:06.893] Browser WARN    Image with src "/porcelain-tiles-modern-design.jpg" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[05:00:06.893] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:00:06.893] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:00:06.893] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#productgallery color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#productgallery","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763648128664}
+[05:00:08.996] Browser WARN    Image with src "http://localhost:3000/lampsi_logo(2).png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[05:00:40.561] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:00:40.561] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.

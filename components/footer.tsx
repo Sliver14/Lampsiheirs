@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer() {
   return (
     <footer
@@ -17,9 +19,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
           {/* Company Info */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="text-2xl md:text-3xl font-bold mb-5 tracking-tight">
-              LAMPSI HEIRS LIMITED
-            </h3>
+            <Image
+                src="/lampsi_logo(2).png"
+                alt="Lampsi Heirs Limited Logo"
+                width={80}
+                height={40}
+                className="object-contain"
+                priority
+              />
             <p className="text-white/80 text-sm leading-relaxed max-w-xs">
               Premium tiles, granites, PVC cladding, and sanitary wares with nationwide delivery and expert installation.
             </p>

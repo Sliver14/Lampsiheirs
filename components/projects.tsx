@@ -1,6 +1,7 @@
 'use client'
 
 import { MapPin } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 
 export default function Projects() {
   const projects = [
@@ -37,7 +38,7 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-12 bg-white md:py-20 w-screen overflow-hidden justify-center flex">
+    <section id="projects" className="py-12 bg-white md:py-20 w-screen overflow-hidden justify-center flex flex-col">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
@@ -67,6 +68,16 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6 sm:w-2xl mx-auto mt-10">
+              <Button
+                // onClick={}
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-semibold shadow-xl transition-all"
+              >
+                View All Projects
+              </Button>
+            </div>
     </section>
   )
 }

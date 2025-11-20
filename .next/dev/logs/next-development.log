@@ -603,3 +603,35 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [04:10:19.512] Server  LOG      ✓ Compiled in 190ms
 [04:10:28.606] Server  LOG      ✓ Compiled in 175ms
 [04:30:19.325] Server  LOG      ✓ Compiled in 289ms
+[04:35:41.772] Server  LOG      ✓ Compiled in 228ms
+[04:36:00.997] Server  LOG      ✓ Compiled in 227ms
+[04:36:44.922] Server  LOG      ✓ Compiled in 185ms
+[04:36:45.897] Browser ERROR   ./components/projects.tsx:75:17
+Parsing ecmascript source code failed
+  73 |               <Button
+  74 |                 onClick={}
+> 75 |                 size="lg"
+     |                 ^^^^
+  76 |                 className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-semibold shadow-xl transition-all"
+  77 |               >
+  78 |                 View All Projects
+
+Expected '</', got 'size'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Client Component Browser]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Client Component SSR]
+    ./components/client-layout.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[04:37:00.741] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:37:50.991] Server  LOG      ✓ Compiled in 188ms
+[04:38:34.266] Server  LOG      ✓ Compiled in 356ms
+[04:38:59.030] Server  LOG      ✓ Compiled in 353ms
+[04:39:02.753] Server  LOG      ✓ Compiled in 259ms

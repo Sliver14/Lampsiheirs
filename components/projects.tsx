@@ -60,13 +60,13 @@ export default function Projects() {
                   className="w-full h-full object-cover hover:scale-105 transition duration-300"
                 />
               </div>
-              <div className="p-6">
+              {/* <div className="p-6">
                 <h3 className="text-lg font-bold text-foreground mb-2">{project.name}</h3>
-                {/* <div className="flex items-center gap-2 text-muted-foreground">
+                <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin size={16} />
                   <p className="text-sm">{project.location}</p>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </div>
           ))}
         </div>

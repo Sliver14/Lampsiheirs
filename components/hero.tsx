@@ -19,7 +19,7 @@ export default function Hero() {
           alt="Premium tiles and sanitary wares showroom"
           fill
           priority
-          quality={95}
+          quality={75}
           className="object-cover object-center"
         />
         {/* Dark Overlay — This one will NEVER fail */}

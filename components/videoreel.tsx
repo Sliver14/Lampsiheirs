@@ -78,7 +78,7 @@ export default function VideoReelCompilation() {
         </div>
 
         {/* Optional Caption */}
-        <p className="text-center text-muted-foreground mt-6 text-sm md:text-base">
+        <p className="text-center text-white/50 mt-6 text-sm md:text-base">
           Real installations across Lagos & nationwide • Tap to play
         </p>
       </div>

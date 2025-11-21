@@ -12,6 +12,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Lampsi Heirs Limited – Premium Tiles, Granites & Sanitary Wares in Lagos, Nigeria',
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   description: 'Best prices on floor & wall tiles, bathroom suites, bathtubs, PVC cladding. Nationwide delivery & professional installation. Chat on WhatsApp for instant quote!',
   openGraph: {
     title: 'Lampsi Heirs Limited – Premium Tiles & Sanitary Wares | Nationwide Delivery',
@@ -34,14 +39,6 @@ export const metadata: Metadata = {
     title: 'Lampsi Heirs Limited – Tiles & Sanitary Wares',
     description: 'Nationwide delivery • Lagos showroom • WhatsApp for quote',
     images: ['/og-image.jpg'],
-  },
-  icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
-    apple: '/apple-icon.png',
   },
   alternates: {
     canonical: 'https://www.lampsiheirs.com',

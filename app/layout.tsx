@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Lampsi Heirs Limited',
     images: [
       {
-        url: 'https://www.lampsiheirs.com/og-image.jpg',
+        url: '/flyer.jpg',
         width: 1200,
         height: 630,
         alt: 'Lampsi Heirs Limited – Premium Tiles & Sanitary Wares Nigeria',

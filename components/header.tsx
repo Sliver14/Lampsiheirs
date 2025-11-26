@@ -63,7 +63,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
 
           {/* Logo */}
-          <Link href="#" className="flex items-center space-x-2">
+          <div 
+          onClick={() => router.push("/")}
+          className="flex items-center cursor-pointer space-x-2">
             <Image
               src="/lampsi_logo(2).png"
               alt="Lampsi Heirs Limited Logo"
@@ -72,7 +74,7 @@ export default function Header() {
               className="object-contain"
               priority
             />
-          </Link>
+          </div>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">

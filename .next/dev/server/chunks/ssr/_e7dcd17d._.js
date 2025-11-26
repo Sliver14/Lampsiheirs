@@ -362,7 +362,7 @@ function Header() {
                         children: [
                             navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: item.href,
-                                    className: "text-sm font-medium text-white hover:text-primary transition-colors duration-200",
+                                    className: "text-sm font-light text-white hover:text-primary transition-colors duration-200",
                                     children: item.label
                                 }, item.label, false, {
                                     fileName: "[project]/components/header.tsx",
@@ -372,7 +372,7 @@ function Header() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                 onClick: ()=>window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank'),
                                 size: "sm",
-                                className: "bg-primary hover:bg-primary/90 text-white font-semibold px-6",
+                                className: "bg-primary hover:bg-primary/90 text-white font-light px-6",
                                 children: "Chat on WhatsApp"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
@@ -1031,13 +1031,125 @@ function ProjectsPage() {
             thumbnail: '/featured/IMG-20251120-WA0036.jpg',
             title: 'PVC Wall Cladding - Office Space',
             description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251126-WA0008.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0008.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251126-WA0009.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0009.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251126-WA0010.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0010.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            // src: '/featured/IMG-20251120-WA0030.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0012.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0034.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0014.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0036.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0015.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0030.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0016.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0034.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0018.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0036.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0020.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0030.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0022.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0034.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0023.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0036.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0024.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        //  {
+        //   type: 'image',
+        //   src: '/featured/IMG-20251120-WA0030.jpg',
+        //   thumbnail: '/featured/IMG-20251126-WA0025.jpg',
+        //   title: 'PVC Wall Cladding - Office Space',
+        //   description: 'Waterproof & easy-to-clean solution',
+        // },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0034.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0026.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0036.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0027.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
+        },
+        {
+            type: 'image',
+            src: '/featured/IMG-20251120-WA0030.jpg',
+            thumbnail: '/featured/IMG-20251126-WA0028.jpg',
+            title: 'PVC Wall Cladding - Office Space',
+            description: 'Waterproof & easy-to-clean solution'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/projects/page.tsx",
-                lineNumber: 152,
+                lineNumber: 264,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1049,7 +1161,7 @@ function ProjectsPage() {
                             className: "text-center mb-12 md:mb-16",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-tight",
+                                    className: "text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-foreground leading-tight",
                                     children: [
                                         "Our Completed ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1057,27 +1169,27 @@ function ProjectsPage() {
                                             children: "Projects"
                                         }, void 0, false, {
                                             fileName: "[project]/app/projects/page.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 271,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 270,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 md:mt-6 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto",
+                                    className: "mt-4 md:mt-6 text-lg md:text-xl font-light text-muted-foreground max-w-3xl mx-auto",
                                     children: "From luxury homes to 5-star hotels, see how we've transformed spaces across Nigeria with premium tiles, granites, and sanitary wares."
                                 }, void 0, false, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 273,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/projects/page.tsx",
-                            lineNumber: 157,
+                            lineNumber: 269,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1098,14 +1210,14 @@ function ProjectsPage() {
                                                 loading: index < 6 ? 'eager' : 'lazy'
                                             }, void 0, false, {
                                                 fileName: "[project]/app/projects/page.tsx",
-                                                lineNumber: 176,
+                                                lineNumber: 288,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-linear-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/projects/page.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 298,
                                                 columnNumber: 19
                                             }, this),
                                             project.type === 'video' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1116,33 +1228,33 @@ function ProjectsPage() {
                                                         className: "w-10 h-10 md:w-12 md:h-12 text-white fill-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/projects/page.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 304,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/projects/page.tsx",
-                                                    lineNumber: 191,
+                                                    lineNumber: 303,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/projects/page.tsx",
-                                                lineNumber: 190,
+                                                lineNumber: 302,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/projects/page.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 287,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 281,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/projects/page.tsx",
-                            lineNumber: 167,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1153,7 +1265,7 @@ function ProjectsPage() {
                                     children: "Ready to Start Your Project?"
                                 }, void 0, false, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 211,
+                                    lineNumber: 323,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1161,34 +1273,34 @@ function ProjectsPage() {
                                     children: "Let's discuss your vision and bring it to life with premium materials and expert installation."
                                 }, void 0, false, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 324,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                     size: "lg",
-                                    className: "bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300",
+                                    className: "bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-light rounded-full shadow-xl hover:shadow-2xl transition-all duration-300",
                                     onClick: ()=>window.open('https://wa.me/2347034523498?text=Hi!%20I%20saw%20your%20amazing%20projects%20and%20would%20like%20to%20discuss%20mine.', '_blank'),
                                     children: "Start Your Project"
                                 }, void 0, false, {
                                     fileName: "[project]/app/projects/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 327,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/projects/page.tsx",
-                            lineNumber: 210,
+                            lineNumber: 322,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/projects/page.tsx",
-                    lineNumber: 155,
+                    lineNumber: 267,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/projects/page.tsx",
-                lineNumber: 154,
+                lineNumber: 266,
                 columnNumber: 7
             }, this),
             lightboxItem && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Lightbox, {
@@ -1196,12 +1308,12 @@ function ProjectsPage() {
                 onClose: ()=>setLightboxItem(null)
             }, void 0, false, {
                 fileName: "[project]/app/projects/page.tsx",
-                lineNumber: 232,
+                lineNumber: 344,
                 columnNumber: 24
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/projects/page.tsx",
-                lineNumber: 234,
+                lineNumber: 346,
                 columnNumber: 7
             }, this)
         ]

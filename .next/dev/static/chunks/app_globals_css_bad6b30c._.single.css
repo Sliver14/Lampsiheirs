@@ -5927,6 +5927,13 @@
     }
   }
 
+  @media (min-width: 80rem) {
+    .xl\:text-5xl {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
+
   @container field-group (min-width: 28rem) {
     .\@md\/field-group\:flex-row {
       flex-direction: row;

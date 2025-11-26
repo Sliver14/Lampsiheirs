@@ -144,6 +144,118 @@ export default function ProjectsPage() {
       title: 'PVC Wall Cladding - Office Space',
       description: 'Waterproof & easy-to-clean solution',
     },
+     {
+      type: 'image',
+      src: '/featured/IMG-20251126-WA0008.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0008.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251126-WA0009.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0009.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251126-WA0010.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0010.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+     {
+      type: 'image',
+      // src: '/featured/IMG-20251120-WA0030.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0012.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0034.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0014.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0036.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0015.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+     {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0030.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0016.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0034.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0018.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0036.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0020.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+     {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0030.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0022.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0034.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0023.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0036.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0024.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    //  {
+    //   type: 'image',
+    //   src: '/featured/IMG-20251120-WA0030.jpg',
+    //   thumbnail: '/featured/IMG-20251126-WA0025.jpg',
+    //   title: 'PVC Wall Cladding - Office Space',
+    //   description: 'Waterproof & easy-to-clean solution',
+    // },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0034.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0026.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+    {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0036.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0027.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
+     {
+      type: 'image',
+      src: '/featured/IMG-20251120-WA0030.jpg',
+      thumbnail: '/featured/IMG-20251126-WA0028.jpg',
+      title: 'PVC Wall Cladding - Office Space',
+      description: 'Waterproof & easy-to-clean solution',
+    },
     
   ]
 
@@ -155,10 +267,10 @@ export default function ProjectsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-12 md:mb-16">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground leading-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-foreground leading-tight">
               Our Completed <span className="text-primary">Projects</span>
             </h1>
-            <p className="mt-4 md:mt-6 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="mt-4 md:mt-6 text-lg md:text-xl font-light text-muted-foreground max-w-3xl mx-auto">
               From luxury homes to 5-star hotels, see how we've transformed spaces across Nigeria with premium tiles, granites, and sanitary wares.
             </p>
           </div>
@@ -214,7 +326,7 @@ export default function ProjectsPage() {
             </p>
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300"
+              className="bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-light rounded-full shadow-xl hover:shadow-2xl transition-all duration-300"
               onClick={() =>
                 window.open(
                   'https://wa.me/2347034523498?text=Hi!%20I%20saw%20your%20amazing%20projects%20and%20would%20like%20to%20discuss%20mine.',

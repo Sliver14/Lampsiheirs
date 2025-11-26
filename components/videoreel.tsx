@@ -36,10 +36,10 @@ export default function VideoReelCompilation() {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
             See Our Work in Action
           </h2>
-          <p className="text-lg text-white">
+          <p className="text-lg font-light text-white">
             <span className="hidden md:inline">From tiles to complete bathroom transformations —</span> watch real projects come to life.
           </p>
         </div>

@@ -20,7 +20,7 @@ export default function HowToOrder() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16 lg:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             How to Order
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -58,7 +58,7 @@ export default function HowToOrder() {
                 <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-bold mb-5 shadow-xl z-10">
                   {step.number}
                 </div>
-                <h3 className="text-lg font-bold text-foreground mb-2">{step.title}</h3>
+                <h3 className="text-lg font-medium text-foreground mb-2">{step.title}</h3>
                 <p className="text-sm text-muted-foreground max-w-40">{step.description}</p>
               </div>
             ))}
@@ -69,7 +69,7 @@ export default function HowToOrder() {
         <div className="mt-16 md:mt-20 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
             size="lg"
-            className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-semibold shadow-xl"
+            className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white px-10 py-7 text-lg font-light shadow-xl"
             onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
           >
             Chat on WhatsApp
@@ -77,7 +77,7 @@ export default function HowToOrder() {
           <Button
             size="lg"
             variant="outline"
-            className="w-full sm:w-auto px-10 py-7 text-lg border-2 border-primary text-primary hover:text-primary hover:bg-primary/10"
+            className="w-full sm:w-auto px-10 py-7 text-lg border-2 border-primary font-light text-primary hover:text-primary hover:bg-primary/10"
             onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
           >
             Request Quote

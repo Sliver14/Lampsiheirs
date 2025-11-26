@@ -17,7 +17,7 @@ export default function Products() {
     {
       name: 'Doors & Interior Solutions',
       description: 'Interior doors, trims, thresholds and finishing accessories.',
-      image: '/interior-doors-pvc-cladding.jpg'
+      image: '/products/images.jpeg'
     },
     {
       name: 'Installation & Construction',
@@ -55,10 +55,10 @@ export default function Products() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 text-white sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold  mb-6 drop-shadow-lg">
+          <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold  mb-6 drop-shadow-lg">
             What We Offer
           </h2>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed font-medium">
+          <p className=" md:text-xl max-w-3xl mx-auto leading-relaxed font-light">
             Comprehensive solutions for all your tiling and sanitary ware needs.
           </p>
         </div>
@@ -78,10 +78,10 @@ export default function Products() {
                 />
               </div>
               <div className="p-7 flex flex-col justify-center">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {product.name}
                 </h3>
-                <p className="text-gray-700 mb-6 leading-relaxed">
+                <p className="text-gray-700 mb-6 font-light leading-relaxed">
                   {product.description}
                 </p>
                 <Button
@@ -89,7 +89,7 @@ export default function Products() {
                   // className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-6 text-lg shadow-lg"
                   // size="lg"
                   variant="outline"
-                  className="w-full center sm:w-auto md:px-10 py-6 text-lg border-2 border-primary text-primary hover:text-primary hover:bg-primary/10"
+                  className="w-full center sm:w-auto md:px-10 py-6 text-lg border-2 border-primary font-light text-primary hover:text-primary hover:bg-primary/10"
                   onClick={() =>
                     window.open(
                       `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(

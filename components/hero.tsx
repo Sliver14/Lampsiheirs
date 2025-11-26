@@ -38,17 +38,17 @@ export default function Hero() {
           <div className="space-y-8 sm:space-y-10 lg:space-y-12">
 
             {/* Badge */}
-            <span className="inline-block bg-white/20 text-white backdrop-blur-sm px-5 py-2.5 rounded-full text-sm sm:text-base font-medium border border-white/30">
+            <span className="inline-block bg-white/20 text-white backdrop-blur-sm px-5 py-2.5 rounded-full text-sm sm:text-base font-light border border-white/30">
               Premium Quality Tiles & Sanitary Wares
             </span>
             <div className='flex flex-col gap-2'>
               {/* Main Heading - Responsive */}
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
                 Beautiful Spaces Start<br className="sm:hidden" /> with Quality
               </h1>
 
               {/* Subheading */}
-              <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
+              <p className="text-base sm:text-lg md:text-xl font-light text-white/90 max-w-3xl mx-auto">
                 Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery & Professional Installation.
               </p>
             </div>
@@ -59,14 +59,14 @@ export default function Hero() {
               <Button
                 onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-semibold shadow-xl transition-all"
+                className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-light shadow-xl transition-all"
               >
                 Get a Free Quote
               </Button>
               <Button
                 variant="outline"
                 size="lg"
-                className="px-8 sm:px-10 py-6 sm:py-7 text-lg border-2 border-white text-primary hover:bg-white/20 backdrop-blur-sm transition-all"
+                className="px-8 sm:px-10 py-6 sm:py-7 text-lg border-2 border-white text-primary font-light hover:bg-white/20 backdrop-blur-sm transition-all"
                 onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Gallery

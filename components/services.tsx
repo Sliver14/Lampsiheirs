@@ -4,27 +4,27 @@ export default function Services() {
   const services = [
     {
       icon: Award,
-      title: 'Durable, premium finishes built to last',
+      title: 'Durable, Premium finishes built to last',
       description: 'Tiles & Surfaces',
     },
     {
       icon: Award,
-      title: 'Clear, competitive pricing — no surprises',
+      title: 'Clear, Competitive Pricing — no surprises',
       description: 'Transparent quotations',
     },
     {
       icon: Truck,
-      title: 'Fast nationwide delivery across Nigeria',
+      title: 'Fast Nationwide Delivery across Nigeria',
       description: 'Nationwide Delivery',
     },
     {
       icon: Users,
-      title: 'Certified installers with quality workmanship',
+      title: 'Certified Installers with Quality workmanship',
       description: 'Installation & Construction',
     },
     {
       icon: Home,
-      title: 'Customer satisfaction promise',
+      title: 'Customer Satisfaction Promise',
       description: 'Guaranteed Excellence',
     },
   ]
@@ -32,7 +32,7 @@ export default function Services() {
   return (
     <section
       id="about"
-      className="py-16 md:py-24 relative bg-gradient-to-b from-white to-primary/5 overflow-hidden"
+      className="py-16 md:py-24 relative bg-linear-to-b from-white to-primary/5 overflow-hidden"
     >
       {/* Light Background Accent */}
       <div className="absolute inset-0 pointer-events-none">
@@ -43,10 +43,10 @@ export default function Services() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-foreground tracking-tight">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
             Why Lampsiheirs
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 text-lg text-muted-foreground font-light max-w-2xl mx-auto">
             We make renovation simple — premium materials, professional installers,
             and hassle-free nationwide delivery.
           </p>
@@ -67,11 +67,11 @@ export default function Services() {
                   />
                 </div>
 
-                <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-3 leading-snug">
+                <h3 className="sm:text-2xl font-semibold text-foreground mb-3 leading-snug">
                   {service.title}
                 </h3>
 
-                <p className="text-base sm:text-lg text-primary font-semibold">
+                <p className="text-base sm:text-lg text-primary font-light">
                   {service.description}
                 </p>
               </div>

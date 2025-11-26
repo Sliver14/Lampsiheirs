@@ -80,7 +80,7 @@ export default function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-white hover:text-primary transition-colors duration-200"
+                className="text-sm font-light text-white hover:text-primary transition-colors duration-200"
               >
                 {item.label}
               </a>
@@ -88,7 +88,7 @@ export default function Header() {
             <Button
               onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
               size="sm"
-              className="bg-primary hover:bg-primary/90 text-white font-semibold px-6"
+              className="bg-primary hover:bg-primary/90 text-white font-light px-6"
             >
               Chat on WhatsApp
             </Button>

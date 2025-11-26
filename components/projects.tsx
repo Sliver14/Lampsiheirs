@@ -44,7 +44,7 @@ export default function Projects() {
     <section id="projects" className="py-12 bg-white md:py-20 w-screen overflow-hidden justify-center flex flex-col">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Projects</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Showcase of our recent successful installations and transformations.
           </p>
@@ -53,7 +53,7 @@ export default function Projects() {
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-background rounded-lg overflow-hidden hover:shadow-lg transition">
-              <div className="h-48 overflow-hidden">
+              <div className="h-48 md:h-90 overflow-hidden">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.name}
@@ -76,7 +76,7 @@ export default function Projects() {
               <Button
                 onClick={()=> router.push('/projects')}
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-semibold shadow-xl transition-all"
+                className="bg-primary hover:bg-primary/90 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg font-light shadow-xl transition-all"
               >
                 View All Projects
               </Button>

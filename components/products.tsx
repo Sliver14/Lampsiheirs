@@ -38,7 +38,7 @@ export default function Products() {
   ]
 
   return (
-    <Reveal>
+    
       <section
       id="products"
       className="relative py-20 md:py-28 w-screen flex justify-center overflow-hidden"
@@ -53,9 +53,10 @@ export default function Products() {
       {/* Light overlay to match the "Why" section */}
       <div className="absolute inset-0 bg-amber-950/80" />
       {/* <div className="absolute inset-0 bg-linear-to-b from-white/90 via-white/60 to-white/90" /> */}
-
+      
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 text-white sm:px-6 lg:px-8">
+        <Reveal>
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold  mb-6 drop-shadow-lg">
             What We Offer
@@ -64,7 +65,8 @@ export default function Products() {
             Comprehensive solutions for all your tiling and sanitary ware needs.
           </p>
         </div>
-
+        </Reveal>
+        <Reveal>
         <div className="grid md:grid-cols-3 gap-8 lg:gap-10">
           {categories.map((product, index) => (
             <div
@@ -106,9 +108,10 @@ export default function Products() {
             </div>
           ))}
         </div>
+        </Reveal>
       </div>
     </section>
-    </Reveal>
+    
     
   )
 }

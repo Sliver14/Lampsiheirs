@@ -1,9 +1,11 @@
 import { FileText, Check, MessageCircle } from 'lucide-react'
+import Reveal from './reveal'
 
 export default function PricingAndQuotes() {
   return (
     <section className="py-12 md:py-20 bg-background">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Reveal>
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-5xl font-bold text-foreground mb-4">
@@ -14,7 +16,9 @@ export default function PricingAndQuotes() {
             Pay only for what you actually need.
           </p>
         </div>
+        </Reveal>
 
+        <Reveal>
         {/* 3 concise points */}
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-secondary/5 rounded-lg border border-border p-6 text-center">
@@ -35,6 +39,7 @@ export default function PricingAndQuotes() {
             <p className="text-sm text-muted-foreground mt-1">Just send a photo on WhatsApp</p>
           </div>
         </div>
+        </Reveal>
       </div>
     </section>
   )

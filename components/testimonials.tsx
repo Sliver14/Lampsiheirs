@@ -84,6 +84,7 @@
 
 import { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
+import Reveal from "./reveal";
 
 export default function Testimonials() {
   const testimonials = [
@@ -123,6 +124,7 @@ export default function Testimonials() {
   return (
     <section className="py-16 md:py-24 bg-secondary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Reveal>
         <div className="text-center mb-12 md:mb-20">
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 md:mb-6">
             Testimonials
@@ -131,7 +133,8 @@ export default function Testimonials() {
             What our satisfied customers have to say.
           </p>
         </div>
-
+        </Reveal>
+        <Reveal>
         <div className="max-w-2xl md:max-w-4xl lg:max-w-5xl mx-auto relative px-12 md:px-16">
           {/* Card */}
           <div className="bg-background rounded-2xl md:rounded-3xl p-8 md:p-12 lg:p-16 border border-border shadow-lg transition-all duration-300">
@@ -179,6 +182,7 @@ export default function Testimonials() {
             ))}
           </div>
         </div>
+        </Reveal>
       </div>
     </section>
   );

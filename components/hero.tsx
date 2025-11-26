@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Header from './header'
+import Reveal from './reveal'
 
 export default function Hero() {
   const whatsappNumber = '2347034523498'
@@ -36,12 +37,15 @@ export default function Hero() {
       <div className="relative flex-1 flex items-center justify-center px-4 md:mt-16 sm:px-6 lg:px-8">
         <div className="w-full max-w-5xl mx-auto text-center">
           <div className="space-y-8 sm:space-y-10 lg:space-y-12">
-
-            {/* Badge */}
+            <Reveal>
+              {/* Badge */}
             <span className="inline-block bg-white/20 text-white backdrop-blur-sm px-5 py-2.5 rounded-full text-sm sm:text-base font-light border border-white/30">
               Premium Quality Tiles & Sanitary Wares
             </span>
-            <div className='flex flex-col gap-2'>
+            </Reveal>
+            
+            <Reveal>
+              <div className='flex flex-col gap-2'>
               {/* Main Heading - Responsive */}
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
                 Beautiful Spaces Start<br className="sm:hidden" /> with Quality
@@ -52,9 +56,11 @@ export default function Hero() {
                 Premium Tiles and Granites, PVC Cladding, Sanitary Wares | Nationwide Delivery & Professional Installation.
               </p>
             </div>
+            </Reveal>
             
-
-            {/* CTA Buttons */}
+            
+            <Reveal>
+              {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6">
               <Button
                 onClick={() => window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank')}
@@ -72,6 +78,8 @@ export default function Hero() {
                 View Gallery
               </Button>
             </div>
+            </Reveal>
+            
 
           </div>
         </div>

@@ -1,4 +1,6 @@
 import { Lightbulb, Truck, Award, Users, Home } from 'lucide-react'
+import { motion } from 'framer-motion'
+import Reveal from './reveal'
 
 export default function Services() {
   const services = [
@@ -30,17 +32,17 @@ export default function Services() {
   ]
 
   return (
-    <section
-      id="about"
-      className="py-16 md:py-24 relative bg-linear-to-b from-white to-primary/5 overflow-hidden"
-    >
+    <div
+        id="about"
+        className="py-16 md:py-24 relative bg-linear-to-b from-white to-primary/5 overflow-hidden"
+      >
       {/* Light Background Accent */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute w-40 h-40 bg-primary/10 rounded-full blur-3xl -top-10 -left-10"></div>
         <div className="absolute w-40 h-40 bg-primary/10 rounded-3xl bottom-0 right-0"></div>
       </div>
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Reveal>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
@@ -79,6 +81,8 @@ export default function Services() {
           })}
         </div>
       </div>
-    </section>
+      </Reveal>
+      
+    </div>
   )
 }

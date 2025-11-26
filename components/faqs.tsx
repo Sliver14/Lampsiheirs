@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
+import Reveal from './reveal'
 
 export default function FAQs() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
@@ -36,14 +37,17 @@ export default function FAQs() {
   return (
     <section id="faqs" className="py-12 md:py-20 bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <Reveal>
+          <div className="text-center mb-16">
           <h2 className="text-2xl md:text-5xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground">
             Find answers to common questions about our products and services.
           </p>
         </div>
-
-        <div className="space-y-4">
+        </Reveal>
+        
+        <Reveal>
+          <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="bg-secondary/5 rounded-lg border border-border overflow-hidden">
               <button
@@ -64,6 +68,8 @@ export default function FAQs() {
             </div>
           ))}
         </div>
+        </Reveal>
+        
       </div>
     </section>
   )

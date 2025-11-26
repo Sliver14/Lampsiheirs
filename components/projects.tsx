@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 
 import { MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Reveal from './reveal';
 
 export default function Projects() {
   const router = useRouter();
@@ -42,7 +43,8 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-12 bg-white md:py-20 w-screen overflow-hidden justify-center flex flex-col">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Reveal>
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4">Featured Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -71,7 +73,9 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      {/* CTA Buttons */}
+      </Reveal>
+     <Reveal>
+           {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6 sm:w-2xl mx-auto mt-10">
               <Button
                 onClick={()=> router.push('/projects')}
@@ -81,6 +85,8 @@ export default function Projects() {
                 View All Projects
               </Button>
             </div>
+     </Reveal>
+     
     </section>
   )
 }

@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Reveal from './reveal'
 
 export default function Products() {
   const whatsappNumber = '2347034523498'
@@ -37,7 +38,8 @@ export default function Products() {
   ]
 
   return (
-    <section
+    <Reveal>
+      <section
       id="products"
       className="relative py-20 md:py-28 w-screen flex justify-center overflow-hidden"
       style={{
@@ -106,5 +108,7 @@ export default function Products() {
         </div>
       </div>
     </section>
+    </Reveal>
+    
   )
 }

@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react'
 import { Play, Pause } from 'lucide-react'
+import Reveal from './reveal'
 
 export default function VideoReelCompilation() {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -32,8 +33,8 @@ export default function VideoReelCompilation() {
       {/* Light overlay to match the "Why" section */}
       <div className="absolute inset-0 bg-amber-950/80" />
       {/* <div className="absolute inset-0 bg-linear-to-b from-white/90 via-white/60 to-white/90" /> */}
-
-      <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Reveal>
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
@@ -82,6 +83,8 @@ export default function VideoReelCompilation() {
           Real installations across Lagos & nationwide • Tap to play
         </p>
       </div>
+      </Reveal>
+      
     </section>
   )
 }

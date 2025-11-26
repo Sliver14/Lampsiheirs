@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
+import Reveal from './reveal'
 
 export default function HowToOrder() {
   const whatsappNumber = '2347034523498'
@@ -18,16 +19,18 @@ export default function HowToOrder() {
   return (
     <section className="py-16 md:py-24 lg:py-32 bg-white w-screen flex justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-12 md:mb-16 lg:mb-20">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            How to Order
-          </h2>
-          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Simple 5-step process to get your project started with us.
-          </p>
-        </div>
-
+        <Reveal>
+          {/* Header */}
+          <div className="text-center mb-12 md:mb-16 lg:mb-20">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              How to Order
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              Simple 5-step process to get your project started with us.
+            </p>
+          </div>
+        </Reveal>
+        <Reveal>
         {/* Steps – Vertical on mobile, Horizontal on larger screens */}
         <div className="relative">
           {/* Mobile: Vertical flow with arrows */}
@@ -64,7 +67,9 @@ export default function HowToOrder() {
             ))}
           </div>
         </div>
+        </Reveal>
 
+        <Reveal>    
         {/* CTA Buttons – Perfectly spaced & stacked on mobile */}
         <div className="mt-16 md:mt-20 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
@@ -83,6 +88,7 @@ export default function HowToOrder() {
             Request Quote
           </Button>
         </div>
+        </Reveal>
       </div>
     </section>
   )

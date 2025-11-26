@@ -6,6 +6,7 @@ import { Play, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import Reveal from '@/components/reveal'
 
 // Lightbox Modal Component (Improved)
 function Lightbox({ item, onClose }: { item: any; onClose: () => void }) {
@@ -262,7 +263,7 @@ export default function ProjectsPage() {
   return (
     <>
       <Header />
-
+    <Reveal>
       <section className="py-16 md:py-24 mt-10 bg-background min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -339,6 +340,8 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
+    </Reveal>
+      
 
       {/* Lightbox */}
       {lightboxItem && <Lightbox item={lightboxItem} onClose={() => setLightboxItem(null)} />}

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Reveal from './reveal'
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
     >
       {/* Strong dark overlay for text readability */}
       <div className="absolute inset-0 bg-black/90" aria-hidden="true" />
-
+      <Reveal>
       {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
@@ -103,6 +104,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      </Reveal>
     </footer>
   );
 }

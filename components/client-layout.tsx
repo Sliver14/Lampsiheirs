@@ -17,7 +17,7 @@ import VideoReels from '@/components/videoreel'
 export default function ClientLayout() {
   return (
     <div
-      className="bg-background text-foreground min-h-screen w-screen overflow-x-hidden"
+      className="bg-background text-foreground min-h-screen w-full overflow-x-hidden"
     >
       {/* <Header /> */}
       <Hero />

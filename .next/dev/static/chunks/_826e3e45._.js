@@ -3242,87 +3242,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/videoreel.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// 'use client'
-// import { useState, useRef } from 'react'
-// import { Play, Pause } from 'lucide-react'
-// import Reveal from './reveal'
-// export default function VideoReelCompilation() {
-//   const [isPlaying, setIsPlaying] = useState(false)
-//   const videoRef = useRef<HTMLVideoElement>(null)
-//   const togglePlay = () => {
-//     if (videoRef.current) {
-//       if (isPlaying) {
-//         videoRef.current.pause()
-//       } else {
-//         videoRef.current.play()
-//       }
-//       setIsPlaying(!isPlaying)
-//     }
-//   }
-//   return (
-//     <section 
-//     className="relative py-12 md:py-20 w-screen flex justify-center overflow-hidden"
-//     style={{
-//         backgroundImage: `url('/Gold_Background.jpg')`,
-//         backgroundSize: 'cover',
-//         backgroundPosition: 'center',
-//         backgroundRepeat: 'no-repeat',
-//         backgroundAttachment: 'scroll',
-//       }}
-//     >
-//       {/* Light overlay to match the "Why" section */}
-//       <div className="absolute inset-0 bg-amber-950/80" />
-//       {/* <div className="absolute inset-0 bg-linear-to-b from-white/90 via-white/60 to-white/90" /> */}
-//       <Reveal>
-//         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-//         {/* Header */}
-//         <div className="text-center mb-12">
-//           <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
-//             See Our Work in Action
-//           </h2>
-//           <p className="text-lg font-light text-white">
-//             <span className="hidden md:inline">From tiles to complete bathroom transformations —</span> watch real projects come to life.
-//           </p>
-//         </div>
-//         {/* Video Container */}
-//         <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
-//           <video
-//             ref={videoRef}
-//             className="w-full aspect-video object-cover"
-//             poster="/5-bedroom-apartment-tiling-installation.jpg" 
-//             src="/video/lampsiheirs-video-reel.mp4"
-//             loop
-//             playsInline
-//             muted={false} 
-//             onClick={togglePlay}
-//           />
-//           {/* Cover Play Button (only shows when paused) */}
-//           {!isPlaying && (
-//             <div className="absolute inset-0 flex items-center justify-center bg-black/40 cursor-pointer">
-//               <Play 
-//                 className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 text-white ml-2 shrink-0" 
-//                 fill="currentColor" 
-//                 onClick={togglePlay}
-//               />
-//             </div>
-//           )}
-//           {/* Small Play/Pause Icon (bottom right) */}
-//           <button
-//             onClick={togglePlay}
-//             className="absolute bottom-4 right-4 w-12 h-12 bg-black/70 hover:bg-black/90 rounded-full flex items-center justify-center text-white backdrop-blur transition"
-//           >
-//             {isPlaying ? <Pause className="w-6 h-6" /> : <Play className=" hidden w-6 h-6 ml-1" fill="currentColor" />}
-//           </button>
-//         </div>
-//         {/* Optional Caption */}
-//         <p className="text-center text-white/50 mt-6 text-sm md:text-base">
-//           Real installations across Lagos & nationwide • Tap to play
-//         </p>
-//       </div>
-//       </Reveal>
-//     </section>
-//   )
-// }
 __turbopack_context__.s([
     "default",
     ()=>VideoReelCompilation
@@ -3389,7 +3308,7 @@ function VideoReelCompilation() {
                 className: "absolute inset-0 bg-amber-950/80"
             }, void 0, false, {
                 fileName: "[project]/components/videoreel.tsx",
-                lineNumber: 159,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$reveal$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3404,7 +3323,7 @@ function VideoReelCompilation() {
                                     children: "See Our Work in Action"
                                 }, void 0, false, {
                                     fileName: "[project]/components/videoreel.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3415,7 +3334,7 @@ function VideoReelCompilation() {
                                             children: "From tiles to complete bathroom transformations —"
                                         }, void 0, false, {
                                             fileName: "[project]/components/videoreel.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this),
                                         ' ',
@@ -3423,13 +3342,13 @@ function VideoReelCompilation() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/videoreel.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/videoreel.tsx",
-                            lineNumber: 164,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3450,12 +3369,12 @@ function VideoReelCompilation() {
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/components/videoreel.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/videoreel.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3470,22 +3389,22 @@ function VideoReelCompilation() {
                                                 d: "M8 5v14l11-7L8 5z"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/videoreel.tsx",
-                                                lineNumber: 204,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/videoreel.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 108,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/videoreel.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 107,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/videoreel.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3494,18 +3413,18 @@ function VideoReelCompilation() {
                                         className: "w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full border-4 border-white/30 animate-ping opacity-75"
                                     }, void 0, false, {
                                         fileName: "[project]/components/videoreel.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 120,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/videoreel.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 119,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/videoreel.tsx",
-                            lineNumber: 177,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3513,24 +3432,24 @@ function VideoReelCompilation() {
                             children: "Real installations across Lagos & nationwide • Tap to play"
                         }, void 0, false, {
                             fileName: "[project]/components/videoreel.tsx",
-                            lineNumber: 216,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/videoreel.tsx",
-                    lineNumber: 162,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/videoreel.tsx",
-                lineNumber: 161,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/videoreel.tsx",
-        lineNumber: 149,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
@@ -3575,7 +3494,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$videoreel$2e$t
 ;
 function ClientLayout() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-background text-foreground min-h-screen w-screen overflow-x-hidden",
+        className: "bg-background text-foreground min-h-screen w-full overflow-x-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$hero$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/client-layout.tsx",
